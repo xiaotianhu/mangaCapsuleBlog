@@ -52,10 +52,12 @@ Whether it's an old archive or a modern e-book, we've got you covered.
 
 *Manga Capsule: Relive the classics, clearer than ever.*
 
+
 ## 📝 Release Notes
 
-- [Release v1.37](./release-1.37.md)
-- [Release v1.36](./release-1.36.md)
-- [Release v1.35](./release-1.35.md)
-- [Release v1.34](./release-1.34.md)
-- [Release v1.32](./release-1.32.md)
+- [Release v1.37](./en/release-log-1.37.md)
+- [Release v1.36](./en/release-log-1.36.md)
+- [Release v1.35](./en/release-log-1.35.md)
+- [Release v1.34](./en/release-log-1.34.md)
+- [Release v1.33](./en/release-log-1.33.md)
+- [Release v1.31](./en/release-log-1.31.md)
