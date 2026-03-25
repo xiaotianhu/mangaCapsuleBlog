@@ -40,3 +40,11 @@
 - **官方网站**: [mangacapsule.com](https://mangacapsule.com)
 
 *漫画胶囊：重温经典，从未如此清晰。*
+
+## 📝 更新日志 (Release Notes)
+
+- [---](./release-1.32.md)
+- [---](./release-1.34.md)
+- [---](./release-1.35.md)
+- [---](./release-1.36.md)
+- [---](./release-1.37.md)
