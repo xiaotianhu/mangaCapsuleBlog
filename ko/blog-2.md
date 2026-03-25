@@ -1,0 +1,30 @@
+---
+id: '2'
+title: 왜 우리는 Material Design이나 iOS 네이티브 컴포넌트를 사용하지 않을까요?
+excerpt: 설계 언어는 단순한 UI 규격이 아니라 제품의 영혼입니다. Manga Capsule의 독특한 디자인 미학 뒤에 숨겨진 사고를 탐구합니다.
+category: 디자인 사고
+readTime: 8 min read
+date: 2024年4月28日
+tags:
+  - UI/UX
+  - Design System
+image: 'https://picsum.photos/seed/design_sys/800/600'
+author:
+  name: Kenneth
+  avatar: 'https://mangacapsule.com/images/hjavatar.jpg'
+  role: 창립자 & 수석 디자이너
+---
+
+Manga Capsule을 열어보면 표준 iOS 앱도, Material Design도 아닌 것을 발견할 수 있습니다. 이는 의도적인 선택입니다.
+
+## 몰입감의 우선순위
+
+만화 읽기는 높은 몰입감을 요구하는 활동입니다. 네이티브 내비게이션 바조차도 이러한 몰입감을 깨뜨릴 수 있습니다. 우리는 "투명 UI" 디자인 철학을 채택했습니다:
+
+1. 조작 컨트롤은 필요할 때만 나타납니다.
+2. 블러(Blur)와 투명도를 사용하여 계층을 만들고, 딱딱한 테두리를 사용하지 않습니다.
+3. 제스처 조작이 클릭 조작보다 우선합니다.
+
+## 색상의 절제
+
+우리의 UI는 Slate-50에서 Slate-900까지의 회색조 색상을 많이 사용하며, 중요한 상호작용(예: 하이라이트, 선택)에서만 브랜드 색상인 Violet을 사용합니다. 이는 화려한 만화 표지가 진정한 주인공이 되도록 하기 위함입니다.
