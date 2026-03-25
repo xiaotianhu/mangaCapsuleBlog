@@ -1,5 +1,6 @@
 # 漫画胶囊 (Manga Capsule) - 极致本地漫画阅读体验
 [English](README.md) | [简体中文](README_zh.md)
+
 ![Manga Capsule Hero](./hero-3in1.png)
 
 漫画胶囊是一款专为 iOS/iPadOS 深度定制的本地漫画阅读器。我们致力于解决“如何优雅地管理并阅读海量本地漫画”这一难题，通过最前沿的 AI 技术与极致的交互设计，为漫画爱好者打造一个纯净、高效的数字书柜。
@@ -44,8 +45,8 @@
 
 ## 📝 更新日志 (Release Notes)
 
-- [---](./release-1.32.md)
-- [---](./release-1.34.md)
-- [---](./release-1.35.md)
-- [---](./release-1.36.md)
-- [---](./release-1.37.md)
+- [漫画胶囊 1.37 版本上线~](./release-1.37.md)
+- [漫画胶囊 1.36 版本上线~](./release-1.36.md)
+- [漫画胶囊 1.35 版本上线~](./release-1.35.md)
+- [漫画胶囊 1.34 版本上线~](./release-1.34.md)
+- [漫画胶囊 1.32 版本上线~](./release-1.32.md)

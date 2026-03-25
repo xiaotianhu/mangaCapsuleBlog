@@ -1,5 +1,4 @@
 # Manga Capsule - Ultimate Local Manga Reading Experience
-
 [English](README.md) | [简体中文](README_zh.md)
 
 ![Manga Capsule Hero](./hero-3in1.png)
@@ -37,14 +36,6 @@ Whether it's an old archive or a modern e-book, we've got you covered.
 
 ---
 
-## 🛡️ Pure, Safe, and Private
-
-- **Zero Ads/Tracking**: No intrusive ads or background data uploads. We understand that reading requires focus.
-- **Privacy Protection**: Supports FaceID / TouchID App Lock to keep your private collection secure.
-- **Extreme Lightweight**: Small installation size and optimized memory usage, running AI upscaling smoothly even on older iPads.
-
----
-
 ## 🔗 Download & Feedback
 
 - **App Store**: [Manga Capsule - AI HD Manga Reader](https://apps.apple.com/app/id6737119574)
@@ -52,12 +43,11 @@ Whether it's an old archive or a modern e-book, we've got you covered.
 
 *Manga Capsule: Relive the classics, clearer than ever.*
 
-
 ## 📝 Release Notes
 
-- [Release v1.37](./en/release-log-1.37.md)
-- [Release v1.36](./en/release-log-1.36.md)
-- [Release v1.35](./en/release-log-1.35.md)
-- [Release v1.34](./en/release-log-1.34.md)
-- [Release v1.33](./en/release-log-1.33.md)
-- [Release v1.31](./en/release-log-1.31.md)
+- [Manga Capsule v1.37 Released](./en/release-log-1.37.md)
+- [Manga Capsule v1.36 Released](./en/release-log-1.36.md)
+- [Manga Capsule v1.35 Released](./en/release-log-1.35.md)
+- [Manga Capsule v1.34 Released](./en/release-log-1.34.md)
+- [Manga Capsule v1.33 Released](./en/release-log-1.33.md)
+- [Manga Capsule v1.31 Released](./en/release-log-1.31.md)
