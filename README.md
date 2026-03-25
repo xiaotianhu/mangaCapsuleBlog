@@ -1,4 +1,5 @@
 # 漫画胶囊 (Manga Capsule) - 极致本地漫画阅读体验
+![Manga Capsule Hero](./hero-3in1.png)
 
 **让每一份珍藏的漫画，都在 Retina 屏幕上焕发新生。**
 
