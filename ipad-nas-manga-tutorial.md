@@ -244,7 +244,7 @@ iPad 上的漫画阅读器 App
 
 如果你还在用传统的「先下载再解压」模式，试试这套方案，你会打开新世界。
 
-> 📥 [下载漫画胶囊 - App Store](https://apps.apple.com/cn/app/漫画胶囊-ai高清漫画阅读器/id6737119574)
+> 📥 [下载漫画胶囊 - App Store](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
 >
 > 🔗 相关阅读：
 > - [NAS 漫画终极方案：在 iPad 上秒开你的私人漫画库](/zh/blog/nas-manga-reading-complete-guide)

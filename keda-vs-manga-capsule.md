@@ -161,4 +161,4 @@ author:
 
 没有谁绝对好过谁，只有**更适合你的使用场景**。好消息是，两款都能免费下载试用，不妨都装上试试，用自己的漫画文件跑一遍，答案自然就有了。
 
-> 📥 [下载漫画胶囊](https://apps.apple.com/cn/app/漫画胶囊-ai高清漫画阅读器/id6737119574)
+> 📥 [下载漫画胶囊](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)

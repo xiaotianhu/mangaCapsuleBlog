@@ -71,7 +71,7 @@ EPUB、ZIP、RAR、PDF、MOBI、CBR、CBZ、AZW3……你能想到的漫画格�
 
 > **适合谁**：有 NAS 的漫画收藏家、追求界面颜值的用户、想用 AI 修复老漫画的人
 > 
-> 📥 [App Store 下载](https://apps.apple.com/cn/app/漫画胶囊-ai高清漫画阅读器/id6737119574)
+> 📥 [App Store 下载](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
 
 ---
 

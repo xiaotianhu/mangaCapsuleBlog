@@ -190,4 +190,4 @@ PDF 格式的韩漫/条漫是一个很细分的需求，但这个需求背后是
 
 如果你也在找一款能好好看 PDF 韩漫的 iOS App，不妨试试。
 
-> 📥 [下载漫画胶囊 - App Store](https://apps.apple.com/cn/app/漫画胶囊-ai高清漫画阅读器/id6737119574)
+> 📥 [下载漫画胶囊 - App Store](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
