@@ -45,3 +45,4 @@ In Finder, select the corresponding device
 You can see the Manga Capsule app on the right side;
 Simply drag the books you want to import directly onto the Manga Capsule app icon - no need to worry about specific folders, as they will be imported automatically after dragging.
 
+For an overview of local files, NAS libraries, formats, and reading modes, see the [iPad manga reading guide](/en/ipad-manga-reader/).

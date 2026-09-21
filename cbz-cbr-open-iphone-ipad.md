@@ -74,3 +74,5 @@ A：能。流式加载不需要把文件全部读入内存，大文件也是点�
 > 🔗 相关阅读：
 > - [Kindle 里的漫画怎么转到 iPad 上看](/zh/blog/kindle-manga-to-ipad)
 > - [百度网盘漫画 iPad 直读方案](/zh/blog/baidu-pan-manga-ipad)
+
+更多 iPad 本地、NAS、网盘和格式选择，可看 [iPad 漫画阅读器完整指南](/zh/ipad-manga-reader/)。

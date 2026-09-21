@@ -78,3 +78,5 @@ A：能。串流載入不需要把檔案全部讀入記憶體，大檔案也是�
 > 🔗 相關閱讀：
 > - [Kindle 裡的漫畫怎麼轉到 iPad 上看](/zh/blog/kindle-manga-to-ipad)
 > - [百度雲端硬碟漫畫 iPad 直讀方案](/zh/blog/baidu-pan-manga-ipad)
+
+更多 iPad 本機、NAS、雲端硬碟與格式選擇，可看 [iPad 漫畫閱讀器完整指南](/zh-TW/ipad-manga-reader/)。

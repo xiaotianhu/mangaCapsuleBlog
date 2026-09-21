@@ -196,3 +196,5 @@ ComicGlass 是日本開發者打造的一款漫畫閱讀器，在日區 App Stor
 > - [可達漫畫 vs 漫畫膠囊：iOS 本地漫畫閱讀器深度對比](/zh/blog/keda-vs-manga-capsule-comparison)
 > - [NAS 漫畫終極方案：在 iPad 上秒開你的私人漫畫庫](/zh/blog/nas-manga-reading-complete-guide)
 > - [怎麼把漫畫匯入 iPad？4種方式全攻略](/zh/blog/how-to-import-manga-to-ipad)
+
+更多 iPad 本機、NAS、雲端硬碟與格式選擇，可看 [iPad 漫畫閱讀器完整指南](/zh-TW/ipad-manga-reader/)。

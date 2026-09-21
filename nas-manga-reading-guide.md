@@ -1,5 +1,5 @@
 ---
-id: "ios-manga-reader-recommendations"
+id: "nas-manga-reading-complete-guide"
 title: "NAS 漫画终极方案：在 iPad 上秒开你的私人漫画库"
 excerpt: "iPad 上秒开你的私人漫画库"
 category: "公共"
@@ -197,3 +197,8 @@ NAS 存储 → 漫画胶囊流式读取 → 不用等、不用下载、画质还
 对于存了几百 G 漫画的 NAS 用户来说，这套方案能让那些「吃灰」的漫画文件重新被翻开。毕竟，好的漫画就应该随时能看，而不是躺在硬盘里落灰。
 
 > 📥 [下载漫画胶囊](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
+>
+> 🔗 相关阅读：
+> - [Komga 漫画服务器 iOS 使用指南](/zh/komga-manga-reader)
+> - [OPDS 漫画阅读指南](/zh/opds-manga-reader)
+> - [NAS 漫画阅读器：把共享文件夹变成私人漫画库](/zh/nas-manga-reader/)

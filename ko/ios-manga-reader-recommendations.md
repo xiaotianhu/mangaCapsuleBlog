@@ -196,3 +196,5 @@ ComicGlass는 일본 개발자가 만든 만화 리더기로, 일본 App Store�
 > - [Keda Manga vs Manga Capsule: iOS 로컬 만화 리더기 심층 비교](/zh/blog/keda-vs-manga-capsule-comparison)
 > - [NAS 만화 궁극적方案: 아이패드에서 개인 만화库的 즉시 열기](/zh/blog/nas-manga-reading-complete-guide)
 > - [만화를 아이패드로 가져오는 방법? 4가지 방식 전체 가이드](/zh/blog/how-to-import-manga-to-ipad)
+
+보관 위치, 파일 형식, 읽기 모드를 한눈에 보려면 [iPad 만화 읽기 가이드](/ko/ipad-manga-reader/)를 참고하세요.

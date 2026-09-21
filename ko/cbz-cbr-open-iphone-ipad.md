@@ -78,3 +78,5 @@ A: 가능합니다. 스트리밍 로딩은 파일 전체를 메모리에 읽어�
 > 🔗 관련 글:
 > - [Kindle의 만화를 iPad로 전환하는 방법](/zh/blog/kindle-manga-to-ipad)
 > - [百度网盘 만화 iPad 직접 읽기 솔루션](/zh/blog/baidu-pan-manga-ipad)
+
+보관 위치, 파일 형식, 읽기 모드를 한눈에 보려면 [iPad 만화 읽기 가이드](/ko/ipad-manga-reader/)를 참고하세요.

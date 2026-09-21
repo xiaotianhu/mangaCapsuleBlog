@@ -198,3 +198,5 @@ Local comic readers are an **extremely niche** category. Big companies won't mak
 > - [Keda Manga vs Manga Capsule: In-Depth iOS Local Comic Reader Comparison](/zh/blog/keda-vs-manga-capsule-comparison)
 > - [Ultimate NAS Comic Solution: Instant Access to Your Private Comic Library on iPad](/zh/blog/nas-manga-reading-complete-guide)
 > - [How to Import Comics to iPad? Complete Guide for 4 Methods](/zh/blog/how-to-import-manga-to-ipad)
+
+For an overview of local files, NAS libraries, formats, and reading modes, see the [iPad manga reading guide](/en/ipad-manga-reader/).

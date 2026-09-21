@@ -78,3 +78,5 @@ A：開けます。ストリーミング加载はファイルを全部メモリ�
 > 🔗 関連記事：
 > - [Kindle の漫画を iPad に転送する方法](/zh/blog/kindle-manga-to-ipad)
 > - [百度网盘の漫画を iPad で直接読む方法](/zh/blog/baidu-pan-manga-ipad)
+
+保存場所・ファイル形式・表示設定をまとめて確認するなら、[iPadで漫画を読むガイド](/ja/ipad-manga-reader/)をご覧ください。

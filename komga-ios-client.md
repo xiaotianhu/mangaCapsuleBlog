@@ -74,3 +74,5 @@ A：适用。Kavita 同样提供 OPDS 接口，直挂文件目录的方案更是
 > 🔗 相关阅读：
 > - [NAS 里几百 G 漫画怎么用 iPad 直接看](/zh/blog/nas-stream-large-manga-ipad)
 > - [iPad 搭配 NAS 看漫画：全品牌配置指南](/zh/blog/ipad-nas-manga-tutorial)
+
+从 docker-compose 部署、书库目录要求，到 OPDS v2 怎么连上、客户端怎么挑，完整流程整理在 [Komga 漫画服务器 iOS 使用指南](/zh/komga-manga-reader/)里；想先弄清 OPDS 协议本身，可以看 [OPDS 漫画阅读指南](/zh/opds-manga-reader/)。

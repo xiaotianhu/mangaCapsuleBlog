@@ -252,3 +252,5 @@ iPad 上的漫画阅读器 App
 > 🔗 相关阅读：
 > - [NAS 漫画终极方案：在 iPad 上秒开你的私人漫画库](/zh/blog/nas-manga-reading-complete-guide)
 > - [NAS里几百G漫画怎么用iPad直接看？](/zh/blog/nas-stream-large-manga-ipad)
+
+보관 위치, 파일 형식, 읽기 모드를 한눈에 보려면 [iPad 만화 읽기 가이드](/ko/ipad-manga-reader/)를 참고하세요.

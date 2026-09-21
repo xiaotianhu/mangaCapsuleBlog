@@ -196,3 +196,5 @@ ComicGlassは日本の開発者が打造した漫画リーダーで、日区App 
 > - [可达漫画 vs 漫画胶囊：iOS ローカル漫画リーダー深度对比](/zh/blog/keda-vs-manga-capsule-comparison)
 > - [NAS 漫画究极方案：iPadで私人漫画庫を秒開](/zh/blog/nas-manga-reading-complete-guide)
 > - [漫画をiPadにインポートする方法？4つの方式全攻略](/zh/blog/how-to-import-manga-to-ipad)
+
+保存場所・ファイル形式・表示設定をまとめて確認するなら、[iPadで漫画を読むガイド](/ja/ipad-manga-reader/)をご覧ください。

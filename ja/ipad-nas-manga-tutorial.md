@@ -252,3 +252,5 @@ LANアクセス設定を完了したら、通勤、出張、旅行時にNAS上�
 > 🔗 関連記事：
 > - [NAS漫画究極の方案：iPadであなたの私人漫画庫を秒で開く](/zh/blog/nas-manga-reading-complete-guide)
 > - [NAS内の数百Gの漫画をiPadで直接視聴するには？](/zh/blog/nas-stream-large-manga-ipad)
+
+保存場所・ファイル形式・表示設定をまとめて確認するなら、[iPadで漫画を読むガイド](/ja/ipad-manga-reader/)をご覧ください。

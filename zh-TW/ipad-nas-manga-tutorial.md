@@ -252,3 +252,5 @@ iPad 上的漫畫閱讀器 App
 > 🔗 相關閱讀：
 > - [NAS 漫畫終極方案：在 iPad 上秒開你的私人漫畫庫](/zh/blog/nas-manga-reading-complete-guide)
 > - [NAS裡幾百G漫畫怎麼用iPad直接看？](/zh/blog/nas-stream-large-manga-ipad)
+
+更多 iPad 本機、NAS、雲端硬碟與格式選擇，可看 [iPad 漫畫閱讀器完整指南](/zh-TW/ipad-manga-reader/)。

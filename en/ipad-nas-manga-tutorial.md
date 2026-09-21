@@ -256,3 +256,5 @@ If you're still using the traditional "download first then extract" mode, try th
 > 🔗 Related Reading:
 > - [NAS Manga Ultimate Solution: Instant Access to Your Private Manga Library on iPad](/zh/blog/nas-manga-reading-complete-guide)
 > - [How to Read Hundreds of GB of Manga on NAS Directly with iPad?](/zh/blog/nas-stream-large-manga-ipad)
+
+For an overview of local files, NAS libraries, formats, and reading modes, see the [iPad manga reading guide](/en/ipad-manga-reader/).

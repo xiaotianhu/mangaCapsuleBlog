@@ -82,3 +82,5 @@ A: Yes. Streaming loading doesn't require loading the entire file into memory, l
 > 🔗 Related Readings:
 > - [How to Transfer Comics from Kindle to iPad](/zh/blog/kindle-manga-to-ipad)
 > - [Direct Baidu Cloud Comic Reading on iPad](/zh/blog/baidu-pan-manga-ipad)
+
+For an overview of local files, NAS libraries, formats, and reading modes, see the [iPad manga reading guide](/en/ipad-manga-reader/).

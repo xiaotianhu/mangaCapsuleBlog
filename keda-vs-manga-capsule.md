@@ -1,5 +1,5 @@
 ---
-id: "ios-manga-reader-recommendations"
+id: "keda-vs-manga-capsule-comparison"
 title: "可达漫画 vs 漫画胶囊：2026 年 iOS 本地漫画阅读器怎么选？ "
 excerpt: "可达漫画 vs 漫画胶囊"
 category: "公共"

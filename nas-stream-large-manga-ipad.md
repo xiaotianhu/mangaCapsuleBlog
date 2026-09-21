@@ -144,4 +144,7 @@ NAS 存漫画 → SMB/WebDAV 协议 → 漫画胶囊流式读取 → 3秒开看�
 
 > 📥 [下载漫画胶囊 - App Store](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
 >
-> 🔗 相关阅读：[NAS 漫画终极方案：在 iPad 上秒开你的私人漫画库](/zh/blog/nas-manga-reading-complete-guide)
+> 🔗 相关阅读：
+> - [NAS 漫画终极方案：在 iPad 上秒开你的私人漫画库](/zh/blog/nas-manga-reading-complete-guide)
+> - [NAS 漫画阅读器：把共享文件夹变成私人漫画库](/zh/nas-manga-reader/)
+> - [NAS 漫画指南总览](/zh/nas/)

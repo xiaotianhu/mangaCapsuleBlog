@@ -86,6 +86,8 @@ iPad 上的漫画阅读器 App
 - SMB 方式：选 SMB → IP 填 `192.168.1.100` → 共享文件夹填 `Manga` → 输入群晖账号密码
 - WebDAV 方式：选 WebDAV → 地址填 `http://192.168.1.100:5005` → 输入群晖账号密码
 
+群晖的外网访问方案、QuickConnect 的实际边界、买机型时 x86 和 ARM 怎么选，另见 [群晖 NAS 漫画阅读指南](/zh/synology-manga-reader/)。
+
 ---
 
 ## ⚪ 极空间 (ZSpace) — 国产新势力
@@ -121,6 +123,8 @@ iPad 上的漫画阅读器 App
 
 同群晖的步骤。SMB 最简单——填 IP 和共享文件夹名就行。
 
+极漫画和第三方阅读器怎么分工、远程访问为什么是几家里最省心的、WebDAV 默认端口为什么是 8080，见 [极空间 NAS 漫画阅读指南](/zh/zspace-manga-reader/)。
+
 ---
 
 ## 🟡 飞牛 (FN OS) — 增长最快的国产 NAS 系统
@@ -145,6 +149,8 @@ iPad 上的漫画阅读器 App
 
 与群晖、极空间一致。打开漫画胶囊 → 添加磁盘 → 选 SMB 或 WebDAV → 填入信息 → 完成。
 
+飞牛没有自带漫画应用这件事意味着什么、商城版 Komga 为什么一定要避开，见 [飞牛 fnOS 漫画阅读指南](/zh/fnos-manga-reader/)。
+
 ---
 
 ## 🟠 绿联 (UGREEN) — 入门级首选
@@ -162,6 +168,8 @@ iPad 上的漫画阅读器 App
 ### iPad 端连接
 
 同上。打开漫画胶囊 → 添加磁盘 → SMB 或 WebDAV → 填入 IP 和账号密码。
+
+绿联官方漫画应用的边界在哪、外网访问这个短板怎么补，见 [绿联 NAS 漫画阅读指南](/zh/ugreen-manga-reader/)。
 
 ---
 
@@ -249,3 +257,5 @@ iPad 上的漫画阅读器 App
 > 🔗 相关阅读：
 > - [NAS 漫画终极方案：在 iPad 上秒开你的私人漫画库](/zh/blog/nas-manga-reading-complete-guide)
 > - [NAS里几百G漫画怎么用iPad直接看？](/zh/blog/nas-stream-large-manga-ipad)
+
+更多 iPad 本地、NAS、网盘和格式选择，可看 [iPad 漫画阅读器完整指南](/zh/ipad-manga-reader/)。
