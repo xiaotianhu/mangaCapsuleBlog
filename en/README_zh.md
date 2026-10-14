@@ -25,7 +25,7 @@ Many treasured old manga have very low resolution, appearing blurry and full of 
 ### 2. 🔌 Multi-Protocol Remote Mounting & Sync
 No longer limited by mobile device storage capacity.
 - **NAS Enthusiast's Dream**: Deep support for **WebDAV** and **SMB** protocols, you can directly read massive resources from NAS or personal servers, experiencing smooth performance like local files.
-- **Full Cloud Drive Support**: One-click mount for **Baidu Cloud**, **Aliyun Drive**, **Google Drive**, **Dropbox**, and more — cloud manga available on demand.
+- **Full Cloud Drive Support**: One-click mount for **Baidu Cloud**, **Aliyun Drive**, **Dropbox**, and more — cloud manga available on demand.
 - **Lightning Sync**: Supports Wi-Fi AirDrop, system file sharing, iCloud Drive import.
 - **Komga Support**: Supports OPDS-based Komga server, making manga management even more convenient.
 
@@ -45,7 +45,7 @@ Whether it's ancient archives or modern e-books, we've got you covered.
 
 ## 🔗 Get & Feedback
 
-- **App Store Download**: [漫画胶囊 - AI 高清漫画阅读器](https://apps.apple.com/cn/app/id6737119574)
+- **App Store Download**: [Manga Capsule - AI 高清漫画阅读器](https://apps.apple.com/us/app/id6737119574)
 - **Official Website**: [mangacapsule.com](https://mangacapsule.com)
 
 *Manga Capsule: Revisit classics, never been this clear.*

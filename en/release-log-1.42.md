@@ -6,11 +6,12 @@ excerpt: >-
   book transfer, simulated page-turning center seam...
 category: Public
 readTime: 2 min read
-date: 2026年07月04日
+date: '2026-07-04'
+dateModified: '2026-10-13'
 tags:
-  - 资源
-  - 漫画
-  - 工具
+  - Resources
+  - Comics
+  - Tools
 image: 'https://mangacapsule.com/images/blog-release-log.jpg'
 author:
   name: Rainy

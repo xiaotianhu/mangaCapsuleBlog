@@ -4,11 +4,12 @@ title: Manga Capsule 1.34 Released~
 excerpt: Recent wave of feature updates and bug fixes
 category: Public
 readTime: 1 min read
-date: 2026年1月15日
+date: '2026-01-15'
+dateModified: '2026-10-13'
 tags:
-  - 资源
-  - 漫画
-  - 工具
+  - Resources
+  - Comics
+  - Tools
 image: 'https://mangacapsule.com/images/blog-release-log.jpg'
 author:
   name: Rainy

@@ -7,11 +7,12 @@ excerpt: >-
   enthusiasts
 category: Tutorial
 readTime: 6 min read
-date: 2026年5月26日
+date: '2026-05-26'
+dateModified: '2026-10-13'
 tags:
   - NAS
-  - 漫画
-  - 教程
+  - Comics
+  - Tutorials
 image: 'https://mangacapsule.com/images/blog/nas-manga-guide-01-why-nas_0.jpg'
 author:
   name: Rainy

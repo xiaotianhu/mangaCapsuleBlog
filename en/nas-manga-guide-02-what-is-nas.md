@@ -6,10 +6,11 @@ excerpt: >-
   concerns — a single NAS can solve all of this
 category: Tutorial
 readTime: 7 min read
-date: 2026年5月30日
+date: '2026-05-30'
+dateModified: '2026-10-13'
 tags:
   - NAS
-  - 教程
+  - Tutorials
 image: 'https://mangacapsule.com/images/blog/nas-manga-guide-02-what-is-nas_0.jpg'
 author:
   name: Rainy
@@ -56,7 +57,7 @@ For the manga library scenario, my personal suggestion is: if your budget allows
 
 Starting from the next issue, let's get into some practical stuff: after your NAS arrives, what's the first thing you should do? How to initialize it, how to create shared folders, how to configure it so your manga reader can connect. If you want to see that, feel free to follow.
 
-Well, since you made it this far, if you think this was helpful, feel free to like, share, or bookmark. If you want to get notifications第一时间, you can also give me a star⭐~
+Well, since you made it this far, if you think this was helpful, feel free to like, share, or bookmark. If you want to get notificationsas soon as they are published, you can also give me a star⭐~
 Thanks for reading my article. Until next time.
 
 > / Author: 卡兹克

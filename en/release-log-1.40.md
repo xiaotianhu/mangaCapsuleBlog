@@ -4,18 +4,19 @@ title: Manga Capsule 1.40 Update Released~
 excerpt: 1.40 brings many new features~
 category: Public
 readTime: 1 min read
-date: 2026年05月20日
+date: '2026-05-20'
+dateModified: '2026-10-13'
 tags:
-  - 资源
-  - 漫画
-  - 工具
+  - Resources
+  - Comics
+  - Tools
 image: 'https://mangacapsule.com/images/blog-release-log.jpg'
 author:
   name: Rainy
   avatar: 'https://mangacapsule.com/images/rainyavatar.jpg'
   role: Developer
 ---
-Recently I made something fun. We added an AI coloring feature to our manga reader 「漫画胶囊」.
+Recently I made something fun. We added an AI coloring feature to our manga reader 「Manga Capsule」.
 
 Here's the story. I'm actually a longtime anime fan myself. Growing up, I read black-and-white manga over and over and never thought there was anything wrong with it. Dragon Ball, Slam Dunk, Yu Yu Hakusho — flipping through page by page, the black-and-white lines were the entire world. Back then, I thought manga was supposed to be black and white; adding colors would actually take away some of the flavor.
 
@@ -45,7 +46,7 @@ So our plan is to release it first, let everyone play with it, and see how the f
 
 Now, while we're at it, we also threw together a "Nine-Grid Generator."
 
-This was actually inspired by something I saw on Jike last week. Some guy posted a nine-grid of his manga collection covers, and the comments were full of people asking how they did it. I thought about it — it's just a排列组合 thing — so we might as well build it into the app.
+This was actually inspired by something I saw on Jike last week. Some guy posted a nine-grid of his manga collection covers, and the comments were full of people asking how they did it. I thought about it — it's just acombinations thing — so we might as well build it into the app.
 
 You select a few books, generate a nine-grid with one tap, and share it to WeChat Moments or Xiaohongshu. That neatly arranged manga shelf cover image just looks so satisfying.
 
@@ -86,7 +87,7 @@ On one hand, I feel bad for users who encountered these issues. On the other han
 
 
 
-Back to 「漫画胶囊」 itself — if you haven't tried it yet, let me give you a quick intro.
+Back to 「Manga Capsule」 itself — if you haven't tried it yet, let me give you a quick intro.
 It's a local manga reader on iOS, supporting EPUB, ZIP, RAR, PDF, MOBI, CBR, CBZ, AZW3 and other mainstream formats — basically any manga file you have can be opened. Its biggest feature is streaming reading: store your manga on NAS or cloud drive, no need to wait for everything to download, tap to open and you can read immediately, like a video — instant start.
 
 It supports quite a few cloud drives too: Aliyun Drive, Baidu Netdisk, iCloud, Google Drive, Dropbox all have it. There's also WebDAV and SMB protocols — NAS users should be pretty familiar. I have a NAS at home with a few hundred gigabytes of manga stored. Before, every time I wanted to read I'd have to download first, and I'd wait until my scalp went numb... Now I just tap and read — this feeling is so goddamn exciting.
@@ -100,10 +101,11 @@ Actually, sometimes I wonder what makes a reader "good." Does ComicShare have ma
 One step at a time, no rush.
 
 Okay, that's about it for this update.
-AI coloring, nine-grid generator, search, PDF long image optimization, plus some bug fixes. If you're using 「漫画胶囊」, remember to update to the latest version and try it out. If you think it's good, please give us a five-star review — that really means a lot to us indie developers.
+AI coloring, nine-grid generator, search, PDF long image optimization, plus some bug fixes. If you're using 「Manga Capsule」, remember to update to the latest version and try it out. If you think it's good, please give us a five-star review — that really means a lot to us indie developers.
 
 Everyone, remember to update and give us a five-star review. I read every single review carefully. Grateful.
 
 
 Since you made it this far, if you think it's good, feel free to like, share, and tap the three-button combo. If you want to get updates first, you can also star me⭐～
 
+**Current availability note (October 13, 2026):** These are historical release notes. Native Google Drive mounting is not currently offered in Add Network Shelf. Use its provider to download supported files and then Import File. Network shelves and streaming require Pro; some formats and sources download before reading.

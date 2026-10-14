@@ -8,10 +8,11 @@ excerpt: >-
   pages and automatically merging double-page spreads
 category: Tutorial
 readTime: 5 min read
-date: 2026年7月9日
+date: '2026-07-09'
+dateModified: '2026-10-13'
 tags:
-  - 漫画
-  - 教程
+  - Comics
+  - Tutorials
   - iPad
 image: 'https://mangacapsule.com/images/blog/manga-double-page-split-merge_0.jpg'
 author:
@@ -49,7 +50,7 @@ For splitting and merging to work correctly, the reading direction must be set p
 |--------------|-------------------|-------|
 | Japanese manga | Right → Left | Right-bound book tradition |
 | Western/Chinese page comics | Left → Right | Left-bound |
-| Webtoons/Korean manhwa | Top → Bottom | Continuous scroll, see [seamless webtoon solution](/zh/blog/webtoon-seam-problem) |
+| Webtoons/Korean manhwa | Top → Bottom | Continuous scroll, see [seamless webtoon solution](/en/blog/webtoon-seam-problem) |
 
 Manga Capsule defaults to Japanese manga direction, but can be set per book, and each book remembers its own direction.
 
@@ -69,8 +70,8 @@ A: Enable double-page split + enable crop white margins + right→left direction
 
 ---
 
-> 📥 [Download Manga Capsule on the App Store](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
+> 📥 [Download Manga Capsule on the App Store](https://apps.apple.com/us/app/id6737119574)
 >
 > 🔗 Related reading:
-> - [How to remove white margins from PDF manga](/zh/blog/pdf-manga-white-margin)
-> - [2026 iOS Manga Reader Recommendations](/zh/blog/ios-manga-reader-recommendations)
+> - [How to remove white margins from PDF manga](/en/blog/pdf-manga-white-margin)
+> - [2026 iOS Manga Reader Recommendations](/en/blog/ios-manga-reader-recommendations)

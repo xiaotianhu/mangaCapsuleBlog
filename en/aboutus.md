@@ -4,11 +4,12 @@ title: About Us - Development & Product
 excerpt: Contact information
 category: About Us
 readTime: 1 min read
-date: 2024年4月15日
+date: '2024-04-15'
+dateModified: '2026-10-13'
 tags:
-  - 资源
-  - 漫画
-  - 工具
+  - Resources
+  - Comics
+  - Tools
 image: 'https://mangacapsule.com/images/blog6-header.jpg'
 author:
   name: Rainy

@@ -6,10 +6,11 @@ excerpt: >-
   should you download?
 category: Tutorial
 readTime: 5 min read
-date: 2026年5月30日
+date: '2026-05-30'
+dateModified: '2026-10-13'
 tags:
-  - 漫画
-  - 教程
+  - Comics
+  - Tutorials
 image: 'https://mangacapsule.com/images/blog/nas-manga-guide-04-manga-formats_0.png'
 author:
   name: Rainy
@@ -50,7 +51,7 @@ For text-based documents, PDF is still the top choice. But for manga, unless PDF
 
 Now for the not-recommended formats.
 
-RAR is an ancient compression format. Newer manga resources rarely use RAR anymore. The problem with RAR is that its compression algorithm is closed-source, making it less efficient for readers to parse than ZIP. Some resources are also password-protected, adding to the麻烦. Streaming support on RAR is also not as good as ZIP.
+RAR is an ancient compression format. Newer manga resources rarely use RAR anymore. The problem with RAR is that its compression algorithm is closed-source, making it less efficient for readers to parse than ZIP. Some resources are also password-protected, adding to theextra steps. Streaming support on RAR is also not as good as ZIP.
 
 CBR is just RAR with a different extension, same as CBZ/ZIP. The drawbacks are the same.
 

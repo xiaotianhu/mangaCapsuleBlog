@@ -4,11 +4,12 @@ title: Manga Capsule version 1.31 is now available~
 excerpt: 'New version released, something big is happening. Follow us~'
 category: Public
 readTime: 1 min read
-date: 2025年12月5日
+date: '2025-12-05'
+dateModified: '2026-10-13'
 tags:
-  - 资源
-  - 漫画
-  - 工具
+  - Resources
+  - Comics
+  - Tools
 image: 'https://mangacapsule.com/images/blog-release-log.jpg'
 author:
   name: Rainy

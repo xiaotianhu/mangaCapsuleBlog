@@ -6,11 +6,12 @@ excerpt: >-
   a NAS system in 2026
 category: Tutorial
 readTime: 8 min read
-date: 2026年5月30日
+date: '2026-05-30'
+dateModified: '2026-10-13'
 tags:
   - NAS
-  - 教程
-  - 工具
+  - Tutorials
+  - Tools
 image: 'https://mangacapsule.com/images/blog/nas-manga-guide-03-choose-nas-os_0.png'
 author:
   name: Rainy
@@ -107,7 +108,7 @@ UGREEN's built-in remote access is slightly slower.
 | If you... | Choose this |
 | --- | --- |
 | Have sufficient budget, want comprehensive stability, willing to pay for ecosystem | Genuine Synology DSM |
-| Have spare hardware, budget-conscious, enjoy DIY乐趣 | fnOS |
+| Have spare hardware, budget-conscious, enjoy DIY work | fnOS |
 | Don't want to tinker, want out-of-the-box, heavy manga/media user | QNAP ZOS |
 | Value hardware value for money, love Docker, can accept imperfect systems | UGREEN UGOS |
 
@@ -115,7 +116,7 @@ No matter which you choose, manga readers connect to NAS using SMB or WebDAV pro
 
 Next issue, we'll talk about how to plan your directory structure after getting your NAS and how to organize your manga files. Follow along if you're interested.
 
-Well, since you made it this far, if you think this is good, feel free to like, share, and retweet. If you want to get updates第一时间, you can also give me a star⭐～
+Well, since you made it this far, if you think this is good, feel free to like, share, and retweet. If you want to get updatesas soon as they are published, you can also give me a star⭐～
 Thanks for reading my article. See you next time.
 
 > / Author: 卡兹克

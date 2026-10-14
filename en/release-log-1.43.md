@@ -6,11 +6,12 @@ excerpt: >-
   the feedback coming~
 category: Public
 readTime: 1 min read
-date: 2026年08月30日
+date: '2026-08-30'
+dateModified: '2026-10-13'
 tags:
-  - 资源
-  - 漫画
-  - 工具
+  - Resources
+  - Comics
+  - Tools
 image: 'https://mangacapsule.com/images/blog-release-log.jpg'
 author:
   name: Rainy

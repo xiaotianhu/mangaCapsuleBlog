@@ -4,11 +4,12 @@ title: Manga Capsule's 2025 Summary
 excerpt: Manga Capsule's 2025 Summary
 category: General
 readTime: 2 min read
-date: 2025年12月31日
+date: '2025-12-31'
+dateModified: '2026-10-13'
 tags:
-  - 资源
-  - 漫画
-  - 工具
+  - Resources
+  - Comics
+  - Tools
 image: 'https://mangacapsule.com/images/blog-7.jpg'
 author:
   name: Rainy
@@ -56,4 +57,4 @@ author:
 
    * 2025-12: Improved OPDS bookshelf and reader support, launched new official website and blog, and performed a series of year-end stability fixes.
 
-
+**Current availability note (October 13, 2026):** These are historical release notes. Native Google Drive mounting is not currently offered in Add Network Shelf. Use its provider to download supported files and then Import File. Network shelves and streaming require Pro; some formats and sources download before reading.

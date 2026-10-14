@@ -25,7 +25,7 @@ Many treasured old mangas have very low resolution, appearing blurry and noisy o
 ### 2. 🔌 Multi-Protocol Remote Mounting & Syncing
 No longer limited by the storage capacity of mobile devices.
 - **NAS Player's Dream**: Deep support for **WebDAV** and **SMB** protocols. You can directly read massive resources from NAS or personal servers, experiencing smoothness identical to local files.
-- **Full Cloud Drive Support**: One-click mounting for **Baidu Netdisk**, **Aliyun Drive**, **Google Drive**, **Dropbox**, etc. Read cloud manga on demand.
+- **Full Cloud Drive Support**: One-click mounting for **Baidu Netdisk**, **Aliyun Drive**, **Dropbox**, etc. Read cloud manga on demand.
 - **Extreme Syncing**: Supports Wi-Fi AirDrop, system file sharing, and iCloud Drive import.
 - **Komga Support**: Supports Komga server based on OPDS for easier manga management.
 

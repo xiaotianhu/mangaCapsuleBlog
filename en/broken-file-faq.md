@@ -4,7 +4,8 @@ title: Common Causes of File Corruption
 excerpt: Common Causes of File Corruption
 category: General
 readTime: 1 min read
-date: 2025年12月5日
+date: '2025-12-05'
+dateModified: '2026-10-13'
 tags:
   - FAQ
 image: 'https://mangacapsule.com/images/brokenfile.jpg'

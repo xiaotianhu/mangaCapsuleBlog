@@ -6,10 +6,11 @@ excerpt: >-
   Resource Download Channels
 category: Resources
 readTime: 5 min read
-date: 2026年5月30日
+date: '2026-05-30'
+dateModified: '2026-10-13'
 tags:
-  - 漫画
-  - 资源
+  - Comics
+  - Resources
 image: 'https://mangacapsule.com/images/blog/nas-manga-guide-05-manga-resources_0.png'
 author:
   name: Rainy
@@ -28,17 +29,17 @@ Manga BuDang Forum. Many of the old RAR and ZIP manga packs you see on the marke
 
 Now for the most commonly used one: Kmoe.
 
-This is my main download source currently. The resources are comprehensive with multiple versions, mainly in EPUB and MOBI formats, and the quality is relatively stable. The image quality of ongoing series can be a bit average, but it's good enough for completed works. There's a free tier, and it's better after充值 (topping up), though the prices have gone up quite a bit compared to before. The domain changes frequently, but you can find the current address by Googling the keywords, and your account credentials stay the same. Some resources require科学上网 (a VPN) to access.
+This is my main download source currently. The resources are comprehensive with multiple versions, mainly in EPUB and MOBI formats, and the quality is relatively stable. The image quality of ongoing series can be a bit average, but it's good enough for completed works. There's a free tier, and it's better aftera paid plan (topping up), though the prices have gone up quite a bit compared to before. The domain changes frequently, but you can find the current address by Googling the keywords, and your account credentials stay the same. Some resources requirea suitable network connection (a VPN) to access.
 
 Now let me mention a few I've used.
 
-CiYuanDog Anime, a rare choice among free sites. It has a large number of resources with various网盘 (cloud storage) links, and the download barrier is low. The downside is that the resource packs are all over the place — some are 7Z archives, some are JPG and PNG image packs, and some are password-protected, often requiring computer operations to extract and repack, which can be tough for pure mobile users.
+CiYuanDog Anime, a rare choice among free sites. It has a large number of resources with various cloud storage links, and the download barrier is low. The downside is that the resource packs are all over the place — some are 7Z archives, some are JPG and PNG image packs, and some are password-protected, often requiring computer operations to extract and repack, which can be tough for pure mobile users.
 
 ManHe (漫核), the operator of this site must be a very nostalgic person. Many manga's double-page spreads have been restored, HD versions, and full-color versions have been manually selected and processed — the quality is very excellent. The downside is that the format is mostly large 7Z archives, which require password extraction after downloading, then repackaging into a format supported by the reader. The operation is relatively complex, recommended for users with computers; those without should think twice.
 
 ManFree (漫自由), feels somewhat overlapping with Kmoe, like a mirrored site that crawled content. Also mainly in EPUB and MOBI formats, with a free tier. Some manga update faster than Kmoe, some slower.
 
-cc-pdf, a site I bought a lifetime membership for a long time ago. It has quite a few vintage manga resources; the early formats were only PDF, and now some have Quark网盘 links. To prevent the resources from being deleted by网盘 (cloud storage), all filenames have been modified with homophones, so perfectionists need to change them back one by one on a computer. The server configuration is very low, so the site is very slow to open, and the domain changes frequently.
+cc-pdf, a site I bought a lifetime membership for a long time ago. It has quite a few vintage manga resources; the early formats were only PDF, and now some have Quark网盘 links. To prevent the resources from being deleted bycloud storage, all filenames have been modified with homophones, so perfectionists need to change them back one by one on a computer. The server configuration is very low, so the site is very slow to open, and the domain changes frequently.
 
 Now let me mention a few that I think aren't very suitable for manga downloads.
 

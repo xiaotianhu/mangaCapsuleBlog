@@ -8,11 +8,12 @@ excerpt: >-
   download needed, no storage space used
 category: Tutorial
 readTime: 5 min read
-date: 2026年7月9日
+date: '2026-07-09'
+dateModified: '2026-10-13'
 tags:
   - 阿里云盘
-  - 漫画
-  - 教程
+  - Comics
+  - Tutorials
 image: 'https://mangacapsule.com/images/blog/aliyun-drive-manga-ipad_0.jpg'
 author:
   name: Rainy
@@ -22,9 +23,9 @@ author:
 
 # How to Read Manga from Aliyun Drive? iPad/iPhone Direct Reading Tutorial Without Downloading
 
-On iOS, using a manga reader that supports Aliyun Drive mounting (like Manga Capsule), after scanning QR code authorization, the cloud drive directory directly maps to your bookshelf, and ZIP/EPUB/CBZ/PDF files open instantly for reading with streaming loading that doesn't take up local storage.
+In Manga Capsule, authorize your Aliyun Drive account from Add Network Shelf, then browse its folders. Compatible archives can load on demand, while RAR/CBR and PDFs from this source download before reading. Caches and downloads use local storage.
 
-Because Aliyun Drive has no speed limits, it's become the primary storage for many people to keep their manga over the past two years. However, its official app has zero support for manga scenarios: compressed packages can only be downloaded, images have no continuous page-turning mode, and there's no mention of right-to-left reading direction for Japanese manga.
+Cloud-provider storage quotas, access rules and speed policies can change. A dedicated comic reader adds reading direction, saved progress and layout controls; check your current provider plan for any separate limits or charges.
 
 ## Operation Steps
 
@@ -32,26 +33,20 @@ Because Aliyun Drive has no speed limits, it's become the primary storage for ma
 2. On the bookshelf page sidebar, add network bookshelf → Aliyun Drive → log in with Aliyun Drive phone number & verification code
 3. After authorization, browse the cloud drive directory, manga files automatically generate covers, tap to read directly
 
-The first time you open it, it will buffer for a few seconds (streaming loads content near the current page), after which page turning is basically seamless. Reading progress and recent reads are all recorded, so you can continue from your iPhone next time.
+Opening time depends on the file, provider and connection. Test a representative CBZ and a download-first format before relying on the setup.
 
-![](https://mangacapsule.com/images/add-123pan.jpg)
+
 
 ## Some Details Specific to Aliyun Drive
 
 - **No worries about many files in a folder**: A library with thousands of files in one folder can load completely (we specifically optimized this in version 1.41)
 - **Both backup drive and resource drive supported**: Files from both spaces can be browsed
-- **Full format support**: ZIP, CBZ, CBR, RAR, 7Z, PDF, EPUB, MOBI direct reading, no decompression or format conversion needed
-- **Want offline**: Long-press the book to cache locally, can read on airplanes
+- **Supported comic formats**: ZIP/CBZ, RAR/CBR, PDF, EPUB, MOBI and AZW3. RAR/CBR requires download and extraction; PDF here downloads first. 7z is not in the current import list.
+- **Want offline**: Long-press to select the book, use Download, wait for completion and test the local copy with networking off.
 
-## Comparison with Baidu Netdisk Solution
+## Choosing a cloud source
 
-| Comparison | Aliyun Drive | Baidu Netdisk |
-|--------|:---:|:---:
-| Free user speed | Fast (lenient unlimited speed policy) | Average |
-| Direct reading smoothness | Very smooth | Usable |
-| Suitable scenario | Primary online library | Existing resource archive
-
-My own usage: frequently read library on Aliyun Drive (loads fast), collection archives on NAS and Baidu Netdisk. Anyway, you can mount multiple sources in the reader at the same time, with unified bookshelf management.
+Use the service where your library already lives. Before moving a collection, compare your current storage quota, access permissions and real download speed with a typical volume. Provider fees and speed limits are separate from Manga Capsule Pro. We have not measured Aliyun Drive against Baidu Netdisk in a controlled test.
 
 ## FAQ
 
@@ -69,8 +64,10 @@ A: Yes, reading progress syncs automatically under the same account, half read o
 
 ---
 
-> 📥 [Download Manga Capsule from App Store](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
+> 📥 [Download Manga Capsule from App Store](https://apps.apple.com/us/app/id6737119574)
 >
 > 🔗 Related Reading:
-> - [Baidu Netdisk Manga iPad Direct Reading Solution](/zh/blog/baidu-pan-manga-ipad)
-> - [123 Cloud Disk Manga Tutorial](/zh/blog/123pan-manga-ipad)
+> - [Baidu Netdisk Manga iPad Direct Reading Solution](/en/blog/baidu-pan-manga-ipad)
+> - [123 Cloud Disk Manga Tutorial](/en/blog/123pan-manga-ipad)
+
+**Pro requirement:** Network shelves and streaming require Pro. The app offers monthly, yearly and lifetime options at regional prices. Cloud-provider fees or speed limits are separate.

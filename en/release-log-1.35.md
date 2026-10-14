@@ -4,11 +4,12 @@ title: Manga Capsule 1.35 Released~
 excerpt: Recent feature updates and bug fixes
 category: Public
 readTime: 1 min read
-date: 2026年1月25日
+date: '2026-01-25'
+dateModified: '2026-10-13'
 tags:
-  - 资源
-  - 漫画
-  - 工具
+  - Resources
+  - Comics
+  - Tools
 image: 'https://mangacapsule.com/images/blog-release-log.jpg'
 author:
   name: Rainy

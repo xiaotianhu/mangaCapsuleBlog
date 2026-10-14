@@ -4,9 +4,10 @@ title: How to Read Local Comics with Manga Capsule - Comic Import Tutorial
 excerpt: Comic Import Tutorial
 category: Public
 readTime: 5 min read
-date: 2025年12月15日
+date: '2025-12-15'
+dateModified: '2026-10-13'
 tags:
-  - 教程
+  - Tutorials
 image: 'https://mangacapsule.com/images/blog-import-local.jpg'
 author:
   name: Rainy
@@ -16,7 +17,7 @@ author:
 
 ## How to Read Local Comics with Manga Capsule - Comic Import Tutorial
 
-Manga Capsule supports free comic reading, allowing you to import local comics for reading. Currently supported import methods include:
+Manga Capsule supports local comic imports. Free local reading allows five books per week; network shelves and streaming require Pro. Currently supported import methods include:
 
 - WiFi Transfer
 - iCloud File Import

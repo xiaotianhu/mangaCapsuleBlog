@@ -6,12 +6,13 @@ excerpt: >-
   directory, iPad can still stream read your Komga library
 category: Tutorial
 readTime: 5 min read
-date: 2026年7月9日
+date: '2026-07-09'
+dateModified: '2026-10-13'
 tags:
   - Komga
   - NAS
   - OPDS
-  - 教程
+  - Tutorials
 image: 'https://mangacapsule.com/images/blog/komga-ios-client_0.jpg'
 author:
   name: Rainy
@@ -21,7 +22,7 @@ author:
 
 # Komga iOS Client, iPhone/iPad Connection to Komga Manga Server Solution
 
-First, **Komga has no official iOS client**, only the web version; it can be used on iPad but the experience is average (no offline cache, page turning gestures and reading mode are quite basic).
+You can use Komga's web reader on an iPad, or connect a compatible native reader to its catalog. Choose based on the file, layout and offline workflow you need.
 
 There are two practical solutions: **connect through OPDS protocol**, or **skip Komga and directly mount the underlying file directory**. Both solutions are supported by Manga Capsule, explained below.
 
@@ -31,7 +32,7 @@ Komga has a built-in OPDS catalog service, and any OPDS-supported reader can bro
 
 Configuration steps (using Manga Capsule as example):
 
-1. On the bookshelf page sidebar, add network bookshelf → select "OPDSv2"
+1. On the bookshelf page sidebar, add network bookshelf → select "OPDS(Komga)"
 2. Enter address: `http://your-Komga-server-address:25600` (25600 is Komga's default port, change to your own if modified)
 3. Enter Komga username and password, connect
 4. Library displays according to Komga's folder structure, tap to read
@@ -49,7 +50,7 @@ Komga essentially adds a management layer over your NAS manga folders. If your d
 
 **Why this is more recommended:**
 
-One less layer (doesn't depend on Komga service status), supports streaming loading (large files open instantly, OPDS requires downloading the entire file), new files on NAS are immediately visible without waiting for Komga to scan.
+Direct folder access avoids depending on Komga's catalog scan. Both the connection route and server capabilities affect on-demand reading; OPDS does not universally require a complete download. Compatible CBZ/ZIP can load on demand, while RAR/CBR downloads and extracts first. Caches use local storage.
 
 ## How to Choose Between the Two Solutions
 
@@ -75,8 +76,10 @@ A: Yes. Kavita also provides OPDS interface, and the direct mount file directory
 
 ---
 
-> 📥 [Download Manga Capsule from App Store](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
+> 📥 [Download Manga Capsule from App Store](https://apps.apple.com/us/app/id6737119574)
 >
 > 🔗 Related Reading:
-> - [How to Read Hundreds of GB of Manga on iPad Directly with NAS](/zh/blog/nas-stream-large-manga-ipad)
-> - [iPad with NAS for Manga: Full Brand Configuration Guide](/zh/blog/ipad-nas-manga-tutorial)
+> - [How to Read Hundreds of GB of Manga on iPad Directly with NAS](/en/blog/nas-stream-large-manga-ipad)
+> - [iPad with NAS for Manga: Full Brand Configuration Guide](/en/blog/ipad-nas-manga-tutorial)
+
+**Pro requirement:** Network shelves and streaming require Pro. Prices and monthly, yearly or lifetime options are shown in your regional storefront and in the app.

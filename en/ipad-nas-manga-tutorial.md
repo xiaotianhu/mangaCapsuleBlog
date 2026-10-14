@@ -1,260 +1,121 @@
 ---
 id: ipad-nas-manga-tutorial
-title: >-
-  iPad + NAS Manga Reading Tutorial: Synology/ZSpace/FN OS/UGREEN Complete Brand
-  Configuration Guide
-excerpt: >-
-  iPad + NAS manga reading tutorial covering Synology, ZSpace, FN OS, UGREEN and
-  other major brands
-category: Public
-readTime: 10 min read
-date: 2026年5月21日
+title: 'Read Comics from a NAS on iPad: SMB and WebDAV Setup'
+excerpt: 'Connect an iPad comic reader to a NAS using SMB or WebDAV. Includes Synology setup, the exact Manga Capsule connection steps, offline downloads and troubleshooting.'
+category: Tutorial
+readTime: 7 min read
+date: '2026-05-21'
+dateModified: '2026-10-13'
 tags:
   - NAS
-  - 漫画
-  - 教程
-image: 'https://mangacapsule.com/images/blog/ipad-nas-tutorial_0.jpg'
+  - iPad
+  - SMB
+  - WebDAV
+image: 'https://mangacapsule.com/images/ipad-screenshot.jpg'
 author:
   name: Rainy
   avatar: 'https://mangacapsule.com/images/rainyavatar.jpg'
-  role: Developer
+  role: Manga Capsule Developer
 ---
 
-# iPad + NAS Manga Reading Tutorial: Synology/ZSpace/FN OS/UGREEN Complete Brand Configuration Guide
+To **read comics from a NAS on iPad**, enable a file-sharing service on the NAS, then add that service as a network shelf in a compatible reader. Start with SMB on your home network. WebDAV is an alternative when your server provides a WebDAV endpoint. You do not need a separate library server just to browse folders of comics.
 
-You bought a NAS, stored your manga, and want to read comfortably on your iPad while lying down — this sounds simple, but many people get stuck on configuration details when actually trying to set it up.
+This tutorial uses Manga Capsule and a Synology example. The app's connection form and download behavior were checked against its implementation; NAS instructions are based on the official documentation linked below. Updated October 13, 2026. This is not a hands-on test of every NAS brand or a speed benchmark.
 
-This article covers **Synology, ZSpace, FN OS, UGREEN, and QNAP** — five major brands. From NAS-side protocol configuration to iPad-side connection settings, we'll walk you through step by step. No matter which brand of NAS you use, you'll find the corresponding instructions.
+## Before you connect
 
-**End result**: Browse your NAS manga directory directly on your iPad, tap to read instantly — no downloads needed, page turning as fast as local files.
+Have these ready:
 
----
+- Your iPad and NAS on the same reachable local network for the first setup. Avoid an isolated guest WiFi.
+- A shared folder containing your own comic files, for example `Comics`, with a small CBZ to test first.
+- The NAS's local IP address or hostname, for example `192.168.1.100`. This is an example, not an address you should copy unchanged.
+- A NAS account allowed to read that folder. A dedicated reading account with only the necessary permissions keeps the setup easier to manage.
+- [Manga Capsule installed](https://apps.apple.com/us/app/id6737119574), with local network access allowed when prompted.
 
-## Prerequisites
+## Choose SMB, WebDAV or OPDS
 
-Before starting, confirm three things:
+| Connection | Choose it when | What you enter |
+|---|---|---|
+| SMB | You already share folders from your NAS on the LAN | NAS host, username/password and optional port; select the shared folder after connecting |
+| WebDAV | Your server provides a WebDAV service | WebDAV URL, HTTPS setting, port if needed and credentials; select a directory after connecting |
+| OPDS(Komga) | You run a managed catalog such as Komga | The server's catalog endpoint and credentials, not its SMB address |
 
-1. ✅ Your NAS and iPad are connected to the **same router** (required during setup, remote access works after)
-2. ✅ You have a shared folder on your NAS for manga (e.g., `/Manga` or `/漫画`)
-3. ✅ You know your NAS **login credentials**
+For a Komga setup, use the separate [Komga iOS connection guide](/en/blog/komga-ios-client). An NAS dashboard URL, QuickConnect link and WebDAV endpoint are not interchangeable.
 
----
+## Step 1: enable sharing on the NAS
 
-## General Principle (Understand This First)
+### Synology: SMB
 
-Regardless of NAS brand, the path for iPad to connect to NAS for manga reading is always the same:
+In DSM, open **Control Panel → File Services → SMB** (the label can be SMB Settings in some versions), enable the service and apply your change. Confirm your reading account has permission for the shared folder. These controls are documented in [Synology's SMB settings guide](https://kb.synology.com/en-global/DSM/help/SMBService/smbservice_smb_settings?version=7).
 
-```
-Manga files on NAS hard drive
-    ↓
-Shared protocol (SMB / WebDAV)
-    ↓
-Manga reader app on iPad
-    ↓
-Streaming read, load while viewing
-```
+Find the NAS's LAN IP in its network settings or your router's client list. Test the same account from a computer if you are unsure about folder permissions.
 
-You only need to do two things:
-1. **NAS side**: Confirm/enable a shared protocol
-2. **iPad side**: Enter connection info in your reader app
+### Synology: WebDAV alternative
 
-Below are the NAS-side configuration steps for each brand.
+Install **WebDAV Server** from Package Center, enable the desired service and note its port. Synology's documented defaults are HTTP 5005 and HTTPS 5006; use the values actually configured on your NAS. For HTTPS, use a hostname and certificate your device can validate. Follow [Synology's official WebDAV setup guide](https://kb.synology.com/en-global/DSM/tutorial/How_to_access_files_on_Synology_NAS_with_WebDAV).
 
----
+### Other NAS systems
 
-## 🟢 Synology — Largest User Base
+QNAP, UGREEN, TrueNAS and other systems use different menus and permissions. Look for their **SMB/file sharing** service, enable it and grant access to the comic share. Use WebDAV only if that model and installed software provide it. Do not assume any service is enabled by default or reuse a Synology port without checking.
 
-Synology is the traditional leader in the NAS market with the largest existing user base. Configuration is also the most mature.
+The iPad connection steps below use the protocol and credentials, so they remain useful regardless of brand. Consult your system's current manual for its server-side menu labels.
 
-### NAS Side Configuration
+## Step 2: add an SMB shelf in Manga Capsule
 
-**Option A: SMB (Recommended, Zero Config)**
+1. Open the bookshelf's source selector and choose **Add Network Shelf**. Select **SMB**.
+2. Enter a **Title** such as `Home comics` and the **Server** host such as `192.168.1.100`.
+3. Enter your NAS **Username** and **Password**. Leave the optional port at its normal value unless your server is configured differently.
+4. Tap **Connect**. The app now lists the account's available shares; the share name is chosen at this step, not entered into a separate field on the initial form.
+5. Open your `Comics` share and navigate to the desired directory, then tap **Save**.
+6. Switch to that saved network shelf, open the small test CBZ and check its pages.
 
-Synology has SMB enabled by default, no extra settings needed. You just need to confirm:
+If the app discovers your NAS automatically, you can use that suggestion, but still verify the host and account. If it connects but shows no share, check permissions rather than repeatedly changing the reader's display settings.
 
-1. Log into Synology DSM → **Control Panel** → **File Services** → **SMB** tab
-2. Confirm "Enable SMB service" is checked
-3. Note your Synology **IP address** (visible at top right of DSM desktop, e.g., `192.168.1.100`)
-4. Note your **shared folder name** (e.g., `Manga`)
+## Step 2 alternative: add a WebDAV shelf
 
-Done, no other NAS-side operations needed.
+1. Choose **Add Network Shelf → WebDAV**.
+2. Give it a **Title**. Set the HTTPS switch to match the service you enabled.
+3. Enter the actual **Server URL** and port. For example, a Synology HTTPS setup might use `https://nas.example.com` with **Port** `5006`; use your own working address. If the URL already includes a port, keep the separate port field consistent.
+4. Enter the account credentials, then tap **Connect**.
+5. Browse to the comic directory and tap **Save**. Open the same small test book.
 
-**Option B: WebDAV (Better for External Access)**
+A WebDAV endpoint may include a path on some servers; preserve the path your server documents. HTTPS certificate errors are addressed by using the correct hostname and trusted certificate, not by replacing the URL with a dashboard login link.
 
-1. Synology DSM → **Package Center** → Search and install **WebDAV Server**
-2. Open WebDAV Server → Check "Enable HTTP" and "Enable HTTPS"
-3. Note the port number (default 5005 for HTTP, 5006 for HTTPS)
-4. WebDAV address format: `http://192.168.1.100:5005`
+## What streams, and what downloads first?
 
-### iPad Side Connection
+A compatible **CBZ/ZIP** on SMB or a suitable WebDAV server can load page data as you read. This reduces the need to fetch the entire archive before starting. It depends on the archive and server, and it still uses a local cache.
 
-Open **Manga Capsule** → Tap "+" in top right → Add Disk:
+**CBR/RAR requires a full local download and extraction before reading in Manga Capsule. Mounted iCloud files download before reading too, as do PDFs from some cloud sources and PDFs requiring local parsing.** Neither a network shelf nor a large storage capacity removes this format limit. For an archive-heavy library, try a representative file first; if you choose to repack your own RAR books as ZIP/CBZ, keep the originals until the converted copies work.
 
-- SMB method: Select SMB → Enter IP `192.168.1.100` → Shared folder `Manga` → Enter Synology credentials
-- WebDAV method: Select WebDAV → Enter address `http://192.168.1.100:5005` → Enter Synology credentials
+Page size, compression, WiFi quality, server latency and cache state all affect opening and page turns. We do not promise identical speed to local reading or a fixed number of seconds.
 
----
+## Download a volume for offline reading
 
-## ⚪ ZSpace — New Domestic Force
+Select the book on the network bookshelf by long-pressing its cover, then use **Download** in the selection actions. Wait for completion and open the copy from the local bookshelf. Test with WiFi and cellular data disabled before leaving home.
 
-ZSpace is known for "simple and easy to use," and many first-time NAS buyers chose it. Manga functionality is also one of ZSpace's built-in highlights.
+If you only opened a remote book previously, do not assume every page remains available offline. A complete local download is the reliable workflow. Keep enough free storage, especially for extracted CBR/RAR files.
 
-### NAS Side Configuration
+## Read away from home
 
-**Option A: SMB**
+Once LAN access works, a private VPN such as Tailscale can make your NAS reachable remotely. [Tailscale's NAS documentation](https://tailscale.com/kb/1074/connect-to-your-nas/) lists platform support, and its [Synology guide](https://tailscale.com/docs/integrations/synology) covers setup. Install it on the NAS and iPad, authorize the devices on your network, then use the NAS's Tailscale address in the reader while the VPN is connected. Access rules must allow the file-sharing service.
 
-SMB is enabled by default on ZSpace. In the ZSpace app on your phone:
+Remote speed depends on your NAS's upload connection and the route between devices. If your NAS cannot run Tailscale directly, follow its documented subnet-router setup rather than assuming installing a phone app alone makes the LAN reachable. Do not expose SMB directly to the public internet.
 
-1. **System Settings** → **File & Sharing Services** → Confirm SMB (Samba) is enabled
-2. Note the NAS IP address (ZSpace app home → Device Info → IP Address)
+Synology specifically notes that **WebDAV does not support QuickConnect URLs** in its [WebDAV troubleshooting guide](https://kb.synology.com/en-my/DSM/tutorial/How_to_fix_WebDAV_connection_issues). Use a reachable IP/hostname and the correct service endpoint.
 
-**Option B: WebDAV**
+## Troubleshoot in this order
 
-1. ZSpace App → **System Settings** → **File & Sharing Services** → **WebDAV**
-2. Enable WebDAV service, set port (default 8080)
-3. WebDAV address format: `http://192.168.1.xxx:8080`
+| Symptom | Check |
+|---|---|
+| Cannot connect at all | Correct LAN host, local network permission, service enabled, guest WiFi isolation and firewall |
+| Login fails | NAS service username/password and account permissions; these are not Manga Capsule account credentials |
+| Connects but folder is missing | Share permissions, chosen share/directory and the account's access scope |
+| WebDAV returns an error or login page | URL path, protocol and port; confirm you did not use the admin dashboard URL |
+| HTTPS fails | Certificate trust and hostname match; use the server's properly configured HTTPS endpoint |
+| One CBZ fails while another opens | Incomplete archive, password, compression or server behavior; try the same file locally |
+| CBR downloads instead of streaming | Expected format behavior; allow space and wait for extraction |
+| Works at home but not remotely | VPN connected on both ends, access policies and the remote address |
 
-**Option C: Jimanhua (ZSpace Built-in Solution)**
+Once a test book works, save the setup and expand to your full library. The [NAS comic reader guide](/en/nas-manga-reader/) explains the wider workflow; the [CBZ/CBR tutorial](/en/blog/cbz-cbr-open-iphone-ipad) covers file-specific issues.
 
-ZSpace has a built-in "Jimanhua" app that can scrape covers and manage metadata. To use with iPad:
-
-1. Use Jimanhua on ZSpace to organize your manga library
-2. Enable WebDAV service
-3. Connect via WebDAV on iPad to read Jimanhua's directory structure
-
-> 💡 **Jimanhua + Manga Capsule combo**: Jimanhua handles metadata scraping, Manga Capsule handles iOS streaming reading experience. They complement each other — currently the best practice for ZSpace users.
-
-### iPad Side Connection
-
-Same steps as Synology. SMB is simplest — just enter IP and shared folder name.
-
----
-
-## 🟡 FN OS — Fastest Growing Domestic NAS System
-
-FN OS is the fastest growing domestic NAS system in recent years (free, full-featured, friendly interface), and our user data confirms this — FN OS user growth has already surpassed Synology.
-
-### NAS Side Configuration
-
-**SMB (Recommended)**
-
-1. FN OS admin panel → **Settings** → **File Services** → **SMB/Samba**
-2. Confirm SMB service is enabled
-3. Note the NAS IP address (top of admin panel or in network settings)
-
-**WebDAV**
-
-1. FN OS → **Settings** → **File Services** → **WebDAV**
-2. Enable WebDAV, set port number
-3. WebDAV address format: `http://IP:port`
-
-### iPad Side Connection
-
-Same as Synology and ZSpace. Open Manga Capsule → Add Disk → Select SMB or WebDAV → Enter info → Done.
-
----
-
-## 🟠 UGREEN — Best Entry-Level Choice
-
-UGREEN NAS is known for high cost-performance and simple operation. Many users' first NAS is a UGREEN.
-
-### NAS Side Configuration
-
-1. UGREEN NAS admin panel (access NAS IP in browser)
-2. **Control Panel** → **File Services** → **SMB** → Confirm enabled
-3. If WebDAV needed: **Control Panel** → **File Services** → **WebDAV** → Enable and note port
-
-UGREEN's system is relatively simple, SMB is on by default. Just get the IP address and you're ready to use.
-
-### iPad Side Connection
-
-Same as above. Open Manga Capsule → Add Disk → SMB or WebDAV → Enter IP and credentials.
-
----
-
-## ⚫ QNAP — Power User's Choice
-
-QNAP is powerful but configuration is slightly more complex.
-
-### NAS Side Configuration
-
-1. Log into QNAP QTS → **Control Panel** → **Network & File Services** → **Win/Mac/NFS/WebDAV**
-2. **Microsoft Networking** tab → Check "Enable Microsoft Networking Service (SMB)"
-3. **WebDAV** tab → Check "Enable WebDAV" → Note port number
-
-### iPad Side Connection
-
-Same as above. Choose either SMB or WebDAV.
-
----
-
-## Advanced: Remote Access (Read Even When Away from Home)
-
-After configuring LAN access, you might want to read manga on your NAS during commute, business trips, or travel. Here are some options:
-
-| Solution | Difficulty | Speed | Recommendation |
-|------|:---:|------|:---:|
-| **Tailscale** | ⭐ Minimal | Depends on network | ⭐⭐⭐ Most Recommended |
-| **ZeroTier** | ⭐⭐ Simple | Depends on network | ⭐⭐ |
-| **Synology QuickConnect** | ⭐ Minimal | Slower | ⭐⭐ Synology users only |
-| **Public IP + Port Forwarding** | ⭐⭐⭐ Complex | Fastest | ⭐ Not recommended for beginners |
-| **Baidu Netdisk/Aliyun Drive Sync** | ⭐⭐ Medium | Depends on cloud | ⭐⭐ Alternative |
-
-### Tailscale Solution (Recommended for Everyone)
-
-This is currently the simplest and most stable remote access solution:
-
-1. Install Tailscale on NAS (Synology Package Center / Docker / command line all work)
-2. Install Tailscale App on iPad
-3. Log into the same Tailscale account on both devices
-4. When Manga Capsule on iPad connects to NAS, use the virtual IP assigned by Tailscale (`100.x.x.x`)
-
-After that, no matter where you are, as long as you have network, you can stream read manga on your NAS just like at home. Tailscale free version supports up to 100 devices, completely sufficient for personal use.
-
-### Cloud Drive Sync Solution (Alternative)
-
-If you don't want to deal with network configuration, there's a "detour" option:
-
-1. Set up Baidu Netdisk/Aliyun Drive sync task on NAS to sync manga folder to cloud
-2. Manga Capsule on iPad directly mounts Baidu Netdisk or Aliyun Drive
-3. Also supports streaming reading, no download needed
-
-The benefit of this solution is **zero network configuration**; the downside is relying on cloud drive service, speed limited by cloud drive servers.
-
----
-
-## FAQ
-
-### Q: Why does connecting to NAS in Manga Capsule keep failing?
-
-Troubleshoot in order:
-1. Is iPad on the same WiFi as NAS? (Required during setup)
-2. Is the IP address correct? (IP may change after NAS restart, recommend setting fixed IP on router)
-3. Are credentials correct? (Not app login password, but NAS system user password)
-4. Is shared folder name correct? (Case sensitive)
-
-### Q: Hundreds of manga in a folder, will browsing on iPad be slow?
-
-Manga Capsule's directory browsing uses paginated loading, only loading content currently displayed on screen. Hundreds of folders scroll smoothly, no need to load everything at once.
-
-### Q: Manga file names are messy, any way to auto-organize?
-
-Currently two approaches:
-- Use tools like **Komga / Jimanhua** on NAS side to scrape covers and metadata, then iPad connects via OPDS / WebDAV
-- Manga Capsule may consider adding **intelligent filename recognition** in the future, automatically extracting series name and volume number from filenames
-
----
-
-## Summary
-
-No matter what brand of NAS, the core process for iPad connecting to NAS for manga reading is the same: **Enable protocol → Enter IP → Start reading**. What truly differentiates the experience is whether the iPad reader can do **streaming loading** — making you feel like the remote files don't exist.
-
-If you're still using the traditional "download first then extract" mode, try this solution — you'll open a new world.
-
-> 📥 [Download Manga Capsule - App Store](https://apps.apple.com/cn/app/漫画胶囊-ai高清漫画阅读器/id6737119574)
->
-> 🔗 Related Reading:
-> - [NAS Manga Ultimate Solution: Instant Access to Your Private Manga Library on iPad](/zh/blog/nas-manga-reading-complete-guide)
-> - [How to Read Hundreds of GB of Manga on NAS Directly with iPad?](/zh/blog/nas-stream-large-manga-ipad)
-
-For an overview of local files, NAS libraries, formats, and reading modes, see the [iPad manga reading guide](/en/ipad-manga-reader/).
+[Download Manga Capsule on the App Store](https://apps.apple.com/us/app/id6737119574). Free local reading allows five books per week; network shelves and streaming require Pro. Monthly, yearly and lifetime options use the prices shown in your storefront and in the app.

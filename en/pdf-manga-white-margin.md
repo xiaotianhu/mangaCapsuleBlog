@@ -8,11 +8,12 @@ excerpt: >-
   the display without manual zooming
 category: Tutorial
 readTime: 4 min read
-date: 2026年7月9日
+date: '2026-07-09'
+dateModified: '2026-10-13'
 tags:
   - PDF
-  - 漫画
-  - 教程
+  - Comics
+  - Tutorials
 image: 'https://mangacapsule.com/images/blog/pdf-manga-white-margin_0.jpg'
 author:
   name: Rainy
@@ -68,8 +69,8 @@ A: No. The cropping happens at the rendering layer; the original file stays unch
 
 ---
 
-> 📥 [Download Manga Capsule on the App Store](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
+> 📥 [Download Manga Capsule on the App Store](https://apps.apple.com/us/app/id6737119574)
 >
 > 🔗 Related Reading:
-> - [How to Fix Webtoon Gaps and Splitting Sensation](/zh/blog/webtoon-seam-problem)
-> - [How to Split Double-Page Comics and Merge Spreads](/zh/blog/manga-double-page-split-merge)
+> - [How to Fix Webtoon Gaps and Splitting Sensation](/en/blog/webtoon-seam-problem)
+> - [How to Split Double-Page Comics and Merge Spreads](/en/blog/manga-double-page-split-merge)

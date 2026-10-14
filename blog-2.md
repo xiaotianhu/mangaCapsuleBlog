@@ -1,4 +1,5 @@
 ---
+draft: true
 id: "2"
 title: "为什么我们坚持不使用 Material Design 或 iOS 原生组件？"
 excerpt: "设计语言不仅仅是 UI 规范，它是产品的灵魂。探讨 Manga Capsule 独特设计美学背后的思考。"

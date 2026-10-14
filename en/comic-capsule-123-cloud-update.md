@@ -8,14 +8,15 @@ excerpt: >-
   save images as book. Plus three bug fixes.
 category: Product Recommendations
 readTime: 1 min read
-date: 2026年6月4日
+date: '2026-06-04'
+dateModified: '2026-10-13'
 tags:
   - iOS
   - iPad
   - App
-  - 漫画
+  - Comics
   - 123云盘
-  - 更新
+  - Updates
 image: 'https://mangacapsule.com/images/blog/comic-capsule-123-cloud-update_0.jpg'
 author:
   name: Rainy

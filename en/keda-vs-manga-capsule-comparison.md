@@ -1,167 +1,62 @@
 ---
 id: keda-vs-manga-capsule-comparison
-title: 'Keda Comics vs Manga Capsule: How to Choose an iOS Local Comic Reader in 2026?'
-excerpt: Keda Comics vs Manga Capsule
-category: Public
-readTime: 1 min read
-date: 2026年5月20日
+title: 'Keda vs Manga Capsule: Compare iPad Comic Readers for Your Library'
+excerpt: 'Both Keda and Manga Capsule support network comic reading. Compare documented features, file-format limits and the checks that matter for your own NAS collection.'
+category: Guide
+readTime: 4 min read
+date: '2026-05-20'
+dateModified: '2026-10-13'
 tags:
-  - 资源
-  - 漫画
-  - 工具
-image: 'https://mangacapsule.com/images/blog/keda-vs-capsule_0.jpg'
+  - Comparisons
+  - iPad
+  - NAS
+image: 'https://mangacapsule.com/images/ipad-screenshot.jpg'
 author:
   name: Rainy
   avatar: 'https://mangacapsule.com/images/rainyavatar.jpg'
-  role: Developer
+  role: Manga Capsule Developer
 ---
 
-# Keda Comics vs Manga Capsule: How to Choose an iOS Local Comic Reader in 2026?
+**Keda and Manga Capsule both support NAS connections and streaming workflows.** Choosing between them depends on your archives, connection protocol, reading controls and device. It cannot be reduced to a table that incorrectly labels Keda as download-only.
 
-In the iOS local comic reader arena, "Keda Comics" is the first name many people hear, while "Manga Capsule" is the hottest new contender in 2026.
+This comparison is written by Manga Capsule's development team. Updated October 13, 2026. Keda's capabilities below are based on its official documentation; Manga Capsule's import and connection limits were checked against the current implementation. We have not measured the two apps side by side, and subjective design preferences are not performance evidence.
 
-Recently on Weibo, Zhihu, and Bilibili, more and more people are asking: "**Which is better, Keda Comics or Manga Capsule?**"
+## What the documentation establishes
 
-This article will provide a comprehensive comparison across six dimensions: **format support, NAS/cloud drive capabilities, reading experience, AI features, UI design, and price**. No hype, no bias — helping you find the one that best suits your needs.
+| Question | Keda | Manga Capsule |
+|---|---|---|
+| Can it connect through SMB/WebDAV? | Yes, described on its official site | Yes, available in Add Network Shelf |
+| Can it read without always downloading the whole book first? | Yes, its official site describes streaming | Compatible CBZ/ZIP and server combinations can load page data on demand |
+| Does it support EPUB? | Documented in developer release notes | Supported comic EPUB import |
+| What about CBZ/CBR/PDF? | Documented supported formats | Supported, with download/extraction required for CBR/RAR |
+| Does a network book consume zero device storage? | Do not infer this from the word streaming | No; caches and download-first formats use local space |
+| What about price, ratings and trial limits? | Check your current storefront and app | Check your current storefront and app |
 
----
+Manga Capsule allows five local books per week for free. Network shelves and streaming require Pro; monthly, yearly and lifetime options use your regional StoreKit prices.
 
-## Quick Overview
+Sources: [Keda official site](https://www.keda.fun/) and [Keda developer changelog](https://blog.kedareader.com/posts/kedamanga-changelog/). The changelog also describes PDF streaming and several cloud connections. Older statements on this blog that Keda lacked streaming or EPUB support were incorrect.
 
-| Comparison Item | Keda Comics | Manga Capsule |
-|--------|---------|---------|
-| **Developer** | Individual developer | Capsule Studio (2-person team) |
-| **Launch Date** | Earlier (details unknown) | February 2025 |
-| **App Store Rating** | ⭐4.5+ | ⭐4.7 (94 ratings) |
-| **Pricing Model** | Free + In-app purchases | Free (core features) + Subscription |
-| **Recent Updates** | Low frequency | High frequency (38 versions) |
-| **Platforms** | iPhone / iPad | iPhone / iPad / Mac (M chip) |
+## Manga Capsule's workflow and limits
 
----
+Manga Capsule offers SMB, WebDAV and OPDS(Komga) network shelves, plus iCloud Drive and Dropbox in its current source menu. Its file import accepts CBZ/ZIP, CBR/RAR, PDF, EPUB, MOBI and AZW3, and supported page images. **7z/CB7 is not in its current supported import list. Native Google Drive mounting is not currently offered in the source menu.** A file downloaded through another provider can still be imported using the system picker if its format is supported.
 
-## 📚 Format Support Comparison
+For a compatible remote CBZ/ZIP, page data can load on demand. For **RAR/CBR, the app downloads and extracts before reading**. Mounted iCloud files also download first; PDFs from some cloud sources or needing local parsing do too. Server behavior and the archive affect loading, so we cannot promise every remote file opens immediately.
 
-Comic file formats vary widely; if an app can't open your files, nothing else matters.
+Manga Capsule also provides reading direction, spread handling, cropping, vertical layouts and on-device image enhancement. These are reasons to test it with a low-resolution scan or long comic, rather than proof that another reader lacks equivalent tools. Enhancement results vary; try a page with text and fine line work before enabling it for every book.
 
-| Format | Keda Comics | Manga Capsule |
-|------|:---:|:---:|
-| CBZ | ✅ | ✅ |
-| CBR | ✅ | ✅ |
-| ZIP | ✅ | ✅ |
-| RAR | 🟡 Partial | ✅ |
-| PDF | ✅ | ✅ |
-| EPUB | ❌ | ✅ |
-| MOBI | ❌ | ✅ |
-| AZW3 | ❌ | ✅ |
-| 7Z | ❌ | ✅ |
+## Use your own collection to make the choice
 
-**Summary**: If you only read CBZ/CBR/PDF, both are sufficient. But if your comic collection includes EPUB (Kindle exports), MOBI, AZW3, etc., **Manga Capsule's advantage is obvious** — it supports 10+ mainstream formats, so you basically don't need to worry about format conversion.
+Choose a normal CBZ, a CBR and a PDF. Include an EPUB if that format matters to you. Connect both apps to the same NAS folder with the same account and WiFi. Check:
 
----
+1. Are pages complete and correctly ordered?
+2. Does a spread work in both portrait and landscape?
+3. Can you set your preferred reading direction and return to your place?
+4. Does the remote file stream, or must it download before opening?
+5. Can you download a complete copy and read it offline?
+6. Which relevant features need payment in your storefront?
 
-## ☁️ NAS & Cloud Drive Capabilities Comparison
+If you time the test, record first opening separately from reopening a cached file, together with device, app version, archive size and connection protocol. Without these details, a claim that one reader is faster has little value.
 
-This is the dimension with the **biggest gap** between the two. It's also a decisive factor for many NAS users choosing Manga Capsule.
+If Keda already fits your files and habits, documentation alone gives no reason to replace it. If you want to evaluate Manga Capsule's folder workflow, OPDS option or image controls, try it with that same collection. For other alternatives, see our [five-reader comparison](/en/blog/ios-manga-reader-recommendations).
 
-| Capability | Keda Comics | Manga Capsule |
-|------|:---:|:---:|
-| WebDAV Mount | ✅ | ✅ |
-| SMB (Samba) Mount | ✅ | ✅ |
-| OPDS Protocol | ✅ | ✅ |
-| Baidu Netdisk | ✅ | ✅ |
-| Aliyun Drive | ✅ | ✅ |
-| iCloud | 🟡 Local only | ✅ Direct cloud reading |
-| Google Drive | ❌ | ✅ |
-| Dropbox | ❌ | ✅ |
-| **Streaming Reading** | ✅ Requires full download | ✅ Buffer and read |
-
-**What is streaming reading?** It means when you open a 500MB high-res comic on your NAS, you don't wait for the entire file to download — you can start flipping pages after 2-3 seconds. Manga Capsule loads in the background as you read, making the whole process seamless.
-
-> 🎯 **If you have a NAS or regularly store comics on cloud drives, Manga Capsule is the better choice.**
-
----
-
-## 📖 Reading Experience Comparison
-
-### Page Turning and Smoothness
-
-Both apps deliver solid page-turning experiences with no noticeable lag during daily reading.
-
-- **Keda Comics**: Simple page-turn animations, stable performance. The pedigree of an established app shows here.
-- **Manga Capsule**: Supports three page-turn modes (slide / continuous scroll / simulated page turn), and the simulated page-turn animation is remarkably detailed. The prefetch mechanism in streaming reading ensures almost no loading wait during continuous page turns.
-
-### Reading Modes
-
-| Mode | Keda Comics | Manga Capsule |
-|------|:---:|:---:|
-| Japanese manga mode (right→left) | ✅ | ✅ |
-| American comics mode (left→right) | ✅ | ✅ |
-| Webtoon mode (top→bottom) | 🟡 Basic support | ✅ Auto-optimized |
-| Double-page mode | ✅ | ✅ |
-| Auto crop white borders | 🟡 | ✅ |
-
-### Webtoon Experience
-
-Manga Capsule's webtoon mode is currently one of the best on iOS — it **automatically detects long webtoon images**, switches to vertical scrolling mode, and optimizes the display ratio. Keda Comics' webtoon support is relatively basic and requires manual adjustments.
-
-If you read a lot of Korean or Chinese webtoons, this difference will be critical.
-
----
-
-## 🤖 AI Features Comparison
-
-| AI Feature | Keda Comics | Manga Capsule |
-|---------|:---:|:---:|
-| AI HD Enhancement | ✅ | ✅ On-device large model |
-| AI Coloring | ❌ | ✅ New in v1.40 |
-| Nine-grid share generation | ❌ | ✅ New in v1.40 |
-
-**This is a dimension where Manga Capsule has exclusive features.** It embeds an optimized on-device super-resolution model that runs directly on iPhone/iPad locally. For old comics, low-res scans, and blurry halftones — the effect is immediate.
-
-Moreover, because it runs **on-device** (no cloud uploads), you don't need to worry about privacy, and there's no usage limit (the free version has a daily cap).
-
-Keda Comics currently has no AI coloring features.
-
----
-
-## 🎨 UI Design Comparison
-
-| Design Aspect | Keda Comics | Manga Capsule |
-|----------|---------|---------|
-| **Design Language** | Traditional iOS style | Modern minimalism |
-| **Bookshelf Display** | Basic list/grid | Smart cover cropping, text-free mode, nine-grid |
-| **Page-turn Animation** | Simple and practical | Three animations, refined simulated page turns |
-| **Dark Mode** | ✅ | ✅ |
-| **Transition Animations** | Basic | Smooth page transitions |
-| **Overall Feel** | Function-oriented | Design-oriented |
-
-Keda Comics' UI follows a "pragmatic" style — all features are there, but the interface shows its age. It's perfectly adequate for those who don't care about aesthetics.
-
-Manga Capsule's UI is one of its core selling points. From 1px shadow details to page transition animations, the polish is visibly evident. If you care about whether an app "looks good," Manga Capsule is arguably the pinnacle of beauty among current iOS comic readers.
-
-> 💬 Weibo user comment: "Keda requires payment for comments? 😂 This one is really well made (I've been using it for a while)" — "Been using it" indicates strong loyalty from Keda's existing users, but new users face more choices.
-
----
-
-## 💰 Price Comparison
-
-| Price Item | Keda Comics | Manga Capsule |
-|--------|---------|---------|
-| **Free Version** | ❌ None | ✅ Core features free |
-| **Payment Method** | In-app purchase unlock | In-app purchase unlock |
-| **One-time Purchase** | ¥68 | ¥48 Early-bird |
-
-**For light users (local only, no AI)**: Manga Capsule lets you read local comics for free, while Keda Comics requires payment after the 7-day trial period.
-
-**For heavy users (NAS + AI HD)**: Manga Capsule at ¥48 gives you streaming reading + AI HD + full format support. In 2026, when even a cup of milk tea costs ¥20, this is excellent value.
-
-## 📝 Final Thoughts
-
-Keda Comics and Manga Capsule represent two different approaches to iOS comic readers:
-
-- **Keda Comics** follows the "established and steady" path — solid features, loyal users, good community reputation. But innovation and update pace are slower.
-- **Manga Capsule** follows the "experience innovation" path — streaming reading, AI HD, full format coverage, modern UI. It sets the new standard for 2026.
-
-Neither is absolutely better than the other; it's about **what fits your use case better**. The good news is both apps are free to download and try. Install them both, run your own comic files through each, and the answer will naturally become clear.
-
-> 📥 [Download Manga Capsule](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
+[Download Manga Capsule](https://apps.apple.com/us/app/id6737119574) · [Set up an iPad NAS shelf](/en/blog/ipad-nas-manga-tutorial) · [Open CBZ/CBR files](/en/blog/cbz-cbr-open-iphone-ipad)

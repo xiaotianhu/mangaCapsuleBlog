@@ -4,11 +4,12 @@ title: Manga Capsule 1.33 Version Released~
 excerpt: 'New version is live, exciting new features! Welcome to follow~'
 category: General
 readTime: 1 min read
-date: 2025年12月15日
+date: '2025-12-15'
+dateModified: '2026-10-13'
 tags:
-  - 资源
-  - 漫画
-  - 工具
+  - Resources
+  - Comics
+  - Tools
 image: 'https://mangacapsule.com/images/blog-release-log.jpg'
 author:
   name: Rainy

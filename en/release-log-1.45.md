@@ -6,11 +6,12 @@ excerpt: >-
   ZIP/EPUB parsing, PDF streaming parsing...
 category: Public
 readTime: 2 min read
-date: 2026年10月13日
+date: '2026-10-13'
+dateModified: '2026-10-13'
 tags:
-  - 资源
-  - 漫画
-  - 工具
+  - Resources
+  - Comics
+  - Tools
 image: 'https://mangacapsule.com/images/blog-release-log.jpg'
 author:
   name: Rainy

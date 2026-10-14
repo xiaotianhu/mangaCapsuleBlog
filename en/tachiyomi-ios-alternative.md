@@ -9,11 +9,12 @@ excerpt: >-
   long-term solution
 category: Tutorial
 readTime: 5 min read
-date: 2026年7月9日
+date: '2026-07-09'
+dateModified: '2026-10-13'
 tags:
   - Tachiyomi
   - Mihon
-  - 教程
+  - Tutorials
 image: 'https://mangacapsule.com/images/blog/tachiyomi-ios-alternative_0.jpg'
 author:
   name: Rainy
@@ -23,20 +24,18 @@ author:
 
 # Is There Tachiyomi on iOS? Manga Reading Solutions After Switching from Android to iPhone/iPad
 
-First things first: **Tachiyomi/Mihon doesn't exist on iOS, and it's highly unlikely it ever will.**
+Manga Capsule is a reader for your own comic files. It does not reproduce Mihon's source-extension system or provide a built-in manga catalog. If you are moving an existing DRM-free collection to iPhone or iPad, file import or an NAS shelf is a practical route.
 
-App Store review guidelines don't allow online manga source aggregator apps to be listed. Side-loading solutions (Paperback/Aidoku with third-party sources) have high barriers and sources frequently go offline. When migrating from Android, the truly stable long-term solution is to change your approach: separate "online tracking" from "reading," download resources to NAS/cloud storage, and use a local manga reader on iOS for direct viewing.
+## Understand the different workflow
 
-## Why iOS Doesn't Have Tachiyomi
-
-Tachiyomi (now Mihon) is built around a plugin-based online source model: aggregating content from various manga sites for unified reading. This type of app cannot pass review in Apple's system — apps that aggregate copyrighted content simply don't get approved. Alternatives that use enterprise certificates or disguised listings (Paperback, Aidoku, etc.) face common issues like certificate invalidation, source repository shutdowns, and inability to auto-update. Anyone who's used them knows this isn't a solution you can rely on long-term.
+A source-based Android reader and a local-library iOS reader solve different tasks. App availability, distribution methods and source support can change; check each project's current documentation rather than assuming all iOS alternatives have the same limitations. This guide focuses on files you already have permission to read.
 
 ## Change Your Approach: Library in the Cloud, Reading on iOS
 
 The mature migration path for Android users moving to iOS looks like this:
 
 1. **Resource acquisition on the server side**: Continue using your familiar methods on PC/NAS to gather resources (downloaders, RSS feeds, or even Tachiyomi itself with batch download/export)
-2. **Store files on NAS or cloud storage**: Organize by title, store ZIP/CBJ files as-is
+2. **Store files on NAS or cloud storage**: Organize by title, store ZIP/CBZ files as-is
 3. **Mount and read directly on iOS**: Use a reader that supports WebDAV/SMB/cloud storage mounting (like "Manga Capsule" that I developed), map your library to a bookshelf, and stream on demand
 
 Honestly, this solution has its pros and cons compared to Tachiyomi:
@@ -67,12 +66,12 @@ A: They can be installed, but require self-signing or TestFlight access. Third-p
 A: No, and it never will. It's a pure local/self-hosted cloud file reader — that's why it can stay safely on the App Store, and why your library won't evaporate overnight.
 
 **Q: Don't want to deal with NAS at all, can I just use cloud storage?**
-A: Absolutely. Aliyun Drive/Baidu Netdisk/123 Cloud Drive mounting works nearly identically to NAS. See the [Cloud Drive Direct Read Tutorial](/zh/blog/aliyun-drive-manga-ipad).
+A: Absolutely. Aliyun Drive/Baidu Netdisk/123 Cloud Drive mounting works nearly identically to NAS. See the [Cloud Drive Direct Read Tutorial](/en/blog/aliyun-drive-manga-ipad).
 
 ---
 
-> 📥 [App Store Download Manga Capsule](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
+> 📥 [App Store Download Manga Capsule](https://apps.apple.com/us/app/id6737119574)
 >
 > 🔗 Related Reading:
-> - [Komga iOS Connection Solution](/zh/blog/komga-ios-client)
-> - [Why Use NAS for Manga Storage](/zh/blog/nas-manga-guide-01-why-nas)
+> - [Komga iOS Connection Solution](/en/blog/komga-ios-client)
+> - [Why Use NAS for Manga Storage](/en/blog/nas-manga-guide-01-why-nas)

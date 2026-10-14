@@ -8,11 +8,12 @@ excerpt: >-
   stream reading after mounting
 category: Tutorial
 readTime: 4 min read
-date: 2026年7月9日
+date: '2026-07-09'
+dateModified: '2026-10-13'
 tags:
   - 123云盘
-  - 漫画
-  - 教程
+  - Comics
+  - Tutorials
 image: 'https://mangacapsule.com/images/blog/123pan-manga-ipad_0.jpg'
 author:
   name: Rainy
@@ -50,7 +51,7 @@ The direct read solution solves all three problems at once: files always stay in
 
 ## Supported Formats
 
-ZIP, CBZ, CBR, RAR, 7Z, PDF, EPUB, MOBI—collected resources don't need decompression or format conversion.
+Supported formats include ZIP/CBZ, RAR/CBR, PDF, comic EPUB, MOBI and AZW3. RAR/CBR downloads and extracts before reading; 7z is not in the current supported import list. Some PDF sources also download first.
 
 EPUB format and ZIP archives have the best support—these two formats are highly recommended. ZIP supports placing images inside, but not nesting EPUB/PDF inside ZIP.
 
@@ -67,8 +68,10 @@ A: Authorization goes through 123 Cloud Drive's official API—the app doesn't h
 
 ---
 
-> 📥 [Download Manga Capsule from App Store](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
+> 📥 [Download Manga Capsule from App Store](https://apps.apple.com/us/app/id6737119574)
 >
 > 🔗 Related Reading:
-> - [Baidu Netdisk Manga iPad Direct Read Solution](/zh/blog/baidu-pan-manga-ipad)
-> - [Alibaba Cloud Drive Manga Direct Read Tutorial](/zh/blog/aliyun-drive-manga-ipad)
+> - [Baidu Netdisk Manga iPad Direct Read Solution](/en/blog/baidu-pan-manga-ipad)
+> - [Alibaba Cloud Drive Manga Direct Read Tutorial](/en/blog/aliyun-drive-manga-ipad)
+
+**Pro requirement:** Network shelves and streaming require Pro. The app offers monthly, yearly and lifetime options at regional prices. Cloud-provider fees or speed limits are separate.

@@ -8,11 +8,12 @@ excerpt: >-
   solved: auto-detect webtoons + seamless stitching rendering
 category: Tutorial
 readTime: 4 min read
-date: 2026年7月9日
+date: '2026-07-09'
+dateModified: '2026-10-13'
 tags:
   - 条漫
-  - 韩漫
-  - 教程
+  - Webtoons
+  - Tutorials
 image: 'https://mangacapsule.com/images/blog/webtoon-seam-problem_0.jpg'
 author:
   name: Rainy
@@ -32,7 +33,7 @@ Korean and Chinese webtoons originally come as long images tens of thousands of 
 
 1. **Page-by-page rendering**: Regular readers treat each slice as a page, with spacing between pages → obvious white gaps
 2. **Zoom rounding errors**: Inconsistent height rounding during screen zoom → thin gray lines and misalignment
-3. **PDF webtoons are worse**: PDFs have built-in margins per page, creating the strongest disjointed feeling when拼接
+3. **PDF webtoons are worse**: PDFs have built-in margins per page, creating the strongest disjointed feeling whenjoined
 
 Summary: **The resources aren't broken—the reader just isn't optimized.**
 
@@ -41,7 +42,7 @@ Summary: **The resources aren't broken—the reader just isn't optimized.**
 Use a reader that auto-detects webtoons. Take my developed "Manga Capsule" as an example:
 
 - **Auto-detection**: Open a comic, and once long-slice characteristics are detected, it automatically switches to webtoon mode (continuous vertical scrolling)—no manual settings needed
-- **Seamless stitching rendering**: Slices are拼接 into a continuous image at the rendering layer, calculated as a whole during zoom—no gaps or misaligned lines will appear
+- **Seamless stitching rendering**: Slices arejoined into a continuous image at the rendering layer, calculated as a whole during zoom—no gaps or misaligned lines will appear
 - **PDF webtoon support**: PDF-formatted webtoons are also automatically de-margined and stitched (we specifically fixed a batch of edge cases for this scenario in version 1.41)
 - **Streaming loading**: Webtoon chapters are small in file size but large in quantity—pairing with NAS/WebDAV direct reading provides the smoothest experience
 
@@ -60,8 +61,8 @@ A: Identification is based on image aspect ratio features—page comics will nor
 
 ---
 
-> 📥 [Download Manga Capsule on App Store](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
+> 📥 [Download Manga Capsule on App Store](https://apps.apple.com/us/app/id6737119574)
 >
 > 🔗 Related Reading:
-> - [Best iOS Reader for PDF Korean Webtoons](/zh/blog/best-pdf-webtoon-ios-reader)
-> - [How to Remove White Margins from PDF Comics](/zh/blog/pdf-manga-white-margin)
+> - [Best iOS Reader for PDF Korean Webtoons](/en/blog/best-pdf-webtoon-ios-reader)
+> - [How to Remove White Margins from PDF Comics](/en/blog/pdf-manga-white-margin)

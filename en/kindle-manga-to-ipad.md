@@ -8,12 +8,13 @@ excerpt: >-
   guide on exporting books from Kindle devices
 category: Tutorial
 readTime: 5 min read
-date: 2026年7月9日
+date: '2026-07-09'
+dateModified: '2026-10-13'
 tags:
   - Kindle
   - MOBI
   - AZW3
-  - 教程
+  - Tutorials
 image: 'https://mangacapsule.com/images/blog/kindle-manga-to-ipad_0.jpg'
 author:
   name: Rainy
@@ -46,7 +47,7 @@ Using Manga Capsule as an example, you have several options:
 
 1. **WiFi Transfer**: Connect your computer and iPad to the same WiFi, open the address shown in the app via browser, and drag entire folders in (hundreds of books at once, with progress display)
 2. **USB Cable**: Direct connection — fastest speed
-3. **Cloud/NAS Transfer** (recommended for large libraries): Upload files to Aliyun Drive/Baidu Netdisk or NAS, mount in the app, and read directly without importing — zero iPad storage used
+3. **Cloud/NAS Transfer** (recommended for large libraries): Upload files to Aliyun Drive/Baidu Netdisk or NAS, mount in the app, and read directly without importing — with local caches and any downloads still using device storage
 
 ## Why Not Convert Formats?
 
@@ -62,7 +63,7 @@ Many online tutorials suggest using Calibre to batch-convert MOBI to EPUB or CBZ
 | Older resource quality | No processing | On-device AI upscaling |
 | Eye comfort | ✅ Strength | Dark mode + brightness control |
 
-E-ink is still unbeatable for text, but for image-heavy content like manga, iPad really is the主场.
+E-ink is still unbeatable for text, but for image-heavy content like manga, iPad really is thea good fit.
 
 ## FAQ
 
@@ -70,15 +71,15 @@ E-ink is still unbeatable for text, but for image-heavy content like manga, iPad
 A: Yes. Manga Capsule supports direct reading of MOBI/AZW3/EPUB without Calibre preprocessing.
 
 **Q: What's the fastest way to batch migrate hundreds of books?**
-A: Drag everything into a folder on NAS or cloud drive, mount that folder in the app — zero import, zero storage used, bookshelf auto-generates covers.
+A: Drag everything into a folder on NAS or cloud drive, mount that folder in the app — browse the remote folder without importing the whole library. Caches, downloaded files and extracted archives still use local storage.
 
 **Q: Most manga on Kindle is Japanese manga — is the reading direction correct?**
 A: Yes, it defaults to right-to-left Japanese manga direction, but can be adjusted per book.
 
 ---
 
-> 📥 [Download Manga Capsule from App Store](https://apps.apple.com/cn/app/%E6%BC%AB%E7%94%BB%E8%83%B6%E5%9B%8A-nas-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id6737119574?ppid=a6c5ba86-6cba-430d-907c-bbdb1455847b)
+> 📥 [Download Manga Capsule from App Store](https://apps.apple.com/us/app/id6737119574)
 >
 > 🔗 Related Reading:
-> - [Can't Open CBZ, CBR on iPhone/iPad? Format Guide](/zh/blog/cbz-cbr-open-iphone-ipad)
-> - [Why Use NAS for Manga Storage](/zh/blog/nas-manga-guide-01-why-nas)
+> - [Can't Open CBZ, CBR on iPhone/iPad? Format Guide](/en/blog/cbz-cbr-open-iphone-ipad)
+> - [Why Use NAS for Manga Storage](/en/blog/nas-manga-guide-01-why-nas)
